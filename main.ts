@@ -85,7 +85,7 @@ Deno.serve(async (_req) => {
 			padding: 15px;
 		}
 	}
-  </style></head><body>`;
+  </style></head><body class="markdown-body">`;
 
   for (const cell of notebook.cells) {
     if (cell.cell_type == "markdown") {
