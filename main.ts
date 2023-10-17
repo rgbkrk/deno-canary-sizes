@@ -68,10 +68,6 @@ Deno.serve(async (_req) => {
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.3.0/github-markdown.min.css">
   <style>
   
-  body {
-    margin: 32px;
-  }
-
   .markdown-body {
 		box-sizing: border-box;
 		min-width: 200px;
@@ -89,7 +85,7 @@ Deno.serve(async (_req) => {
 
   for (const cell of notebook.cells) {
     if (cell.cell_type == "markdown") {
-      html += `<div class="markdown-body">${
+      html += `<div>${
         marked.parse(cell.source.join("\n"), {
           gfm: true,
         })
