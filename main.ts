@@ -1,71 +1,122 @@
-import { Canary, fetchCanariesSinceTag } from "./mod.ts";
-import Plot from "https://deno.land/x/plot@0.0.2/mod.ts";
+// This module converts a notebook to HTML and serves it up
 
-const canaries = await fetchCanariesSinceTag("v1.36.0");
+import { marked } from "npm:marked";
 
-const jupyterLines = canaries.filter((point: Canary) =>
-  point.subject.includes("jupyter")
-);
+type Output = {
+  output_type: "display_data" | "execute_result";
+  data: {
+    "text/plain"?: string[];
+    "text/html"?: string[];
+  };
+};
 
-Deno.serve((_req) => {
-  const el = Plot.plot({
-    marginLeft: 100,
-    height: 300,
-    width: 800,
-    marks: [
-      Plot.lineY(canaries, {
-        x: "authoredDate",
-        y: "size",
-      }),
-      Plot.ruleY([0]),
-      Plot.ruleX(jupyterLines, {
-        stroke: "orange",
-        x: "authoredDate",
-        y2: "size",
-      }),
-    ],
-  });
+type CodeCell = {
+  cell_type: "code";
+  execution_count: number | null;
+  metadata: {
+    collapsed: boolean;
+  };
+  outputs: Output[];
+  source: string[];
+};
 
-  const style = `
+type MarkdownCell = {
+  cell_type: "markdown";
+  metadata: {
+    collapsed: boolean;
+  };
+  source: string[];
+};
+
+type Cell = CodeCell | MarkdownCell;
+
+type Notebook = {
+  cells: Cell[];
+  metadata: {
+    kernelspec?: {
+      display_name: string;
+      language: string;
+      name: string;
+    };
+    language_info?: {
+      codemirror_mode: {
+        name: string;
+        version: number;
+      };
+      file_extension: string;
+      mimetype: string;
+      name: string;
+      nbconvert_exporter: string;
+      pygments_lexer: string;
+      version: string;
+    };
+  };
+};
+
+async function readNotebook(location: string): Promise<Notebook> {
+  const nbtxt = await Deno.readTextFile(location);
+  const nbjson = JSON.parse(nbtxt) as Notebook;
+  return nbjson;
+}
+
+const notebookName = "./canary-sizes.ipynb";
+const notebook = await readNotebook(notebookName);
+
+Deno.serve(async (_req) => {
+  let html = `<html><head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.3.0/github-markdown.min.css">
+  <style>
+  
   body {
-    font-family: system-ui;
     margin: 32px;
   }
 
-  h2 {
-    font-size: 1.5em;
-    font-weight: 600;
+  .markdown-body {
+		box-sizing: border-box;
+		min-width: 200px;
+		max-width: 980px;
+		margin: 0 auto;
+		padding: 45px;
+	}
+
+	@media (max-width: 767px) {
+		.markdown-body {
+			padding: 15px;
+		}
+	}
+  </style></head><body>`;
+
+  for (const cell of notebook.cells) {
+    if (cell.cell_type == "markdown") {
+      html += `<div class="markdown-body">${
+        marked.parse(cell.source.join("\n"), {
+          gfm: true,
+        })
+      }</div>`;
+    } else if (cell.cell_type == "code") {
+      // Pluck the output out to embed
+      for (const output of cell.outputs) {
+        if (
+          output.output_type == "display_data" ||
+          output.output_type == "execute_result"
+        ) {
+          if (output.data["text/html"]) {
+            html += output.data["text/html"].join("\n");
+          } else if (output.data["text/plain"]) {
+            html += `<pre>${output.data["text/plain"].join("\n")}</pre>`;
+          }
+        } else {
+          continue;
+        }
+      }
+    }
   }
 
-  h3 {
-    font-size: 1.25em;
-    font-weight: 400;
-  }
-
-  .jupyter-orange {
-    color: orange;
-  }
-
-  footer {
-    margin-top: 32px;
-    font-size: 0.75em;
-  }
-
-  footer a {
-    color: black;
-  }
-  `;
+  html += `</body></html>`;
 
   return new Response(
-    `<html><style>${style}</style><body>
-    <h2>Size of the Deno Canary on Linux over time (in commits)</h2>
-    <h3>Commits that contain Jupyter related changes are in <span class="jupyter-orange">orange</span></h3>
-    ${el.toString()}
-
-    <footer>
-      View <a href="https://github.com/rgbkrk/deno-canary-sizes">deno-canary-sizes</a> on GitHub.
-    </footer>
-    </body></html>`,
+    html,
     {
       headers: {
         "content-type": "text/html; charset=UTF-8",

@@ -3,7 +3,8 @@
   "packages": {
     "specifiers": {
       "npm:@observablehq/plot@0.6.11": "npm:@observablehq/plot@0.6.11",
-      "npm:linkedom": "npm:linkedom@0.15.3"
+      "npm:linkedom": "npm:linkedom@0.15.3",
+      "npm:marked": "npm:marked@9.1.2"
     },
     "npm": {
       "@observablehq/plot@0.6.11": {
@@ -336,6 +337,10 @@
           "htmlparser2": "htmlparser2@8.0.2",
           "uhyphen": "uhyphen@0.2.0"
         }
+      },
+      "marked@9.1.2": {
+        "integrity": "sha512-qoKMJqK0w6vkLk8+KnKZAH6neUZSNaQqVZ/h2yZ9S7CbLuFHyS2viB0jnqcWF9UKjwsAbMrQtnQhdmdvOVOw9w==",
+        "dependencies": {}
       },
       "nth-check@2.1.1": {
         "integrity": "sha512-lqjrjmaOoAnWfMmBPL+XNnynZh2+swxiX3WUE0s4yEHI6m+AwrK2UZOimIRl3X/4QctVqS8AiZjFqyOGrMXb/w==",
