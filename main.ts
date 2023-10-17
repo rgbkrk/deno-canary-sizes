@@ -59,9 +59,14 @@ async function readNotebook(location: string): Promise<Notebook> {
   return nbjson;
 }
 
+const config = {
+  notebookPath: "./canary-sizes.ipynb",
+  repo: "rgbkrk/deno-canary-sizes",
+};
+
 Deno.serve(async (_req) => {
-  const notebookName = "./canary-sizes.ipynb";
-  const notebook = await readNotebook(notebookName);
+  const notebook = await readNotebook(config.notebookPath);
+
   let html = `<html><head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/5.3.0/github-markdown.min.css">
@@ -80,6 +85,13 @@ Deno.serve(async (_req) => {
 			padding: 15px;
 		}
 	}
+
+  footer {
+    margin-top: 1em;
+    font-size: 0.75em;
+    color: #555;
+  }
+
   </style></head><body class="markdown-body">`;
 
   for (const cell of notebook.cells) {
@@ -108,7 +120,9 @@ Deno.serve(async (_req) => {
     }
   }
 
-  html += `</body></html>`;
+  html += `<footer>
+    View <a href="https://github.com/${config.repo}">${config.repo}</a> on GitHub.
+  </footer></body></html>`;
 
   return new Response(
     html,
