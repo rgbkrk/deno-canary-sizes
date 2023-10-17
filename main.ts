@@ -73,7 +73,7 @@ Deno.serve(async (_req) => {
 		min-width: 200px;
 		max-width: 980px;
 		margin: 0 auto;
-		padding: 45px;
+		padding: 32px;
 	}
 
 	@media (max-width: 767px) {
