@@ -47,9 +47,14 @@ Deno.serve((_req) => {
     ],
   });
 
-  return new Response(`<html><body>${el.toString()}</body></html>`, {
-    headers: {
-      "content-type": "text/html",
+  console.log(el);
+
+  return new Response(
+    `<html><body>${el.toString()}</body></html>`,
+    {
+      headers: {
+        "content-type": "text/html; charset=UTF-8",
+      },
     },
-  });
+  );
 });
