@@ -1,3 +1,24 @@
+import canaryJSON from "./canaries.json" assert { type: "json" };
+
+type Commit = {
+  hash: string;
+  subject: string;
+  authoredDate: Date;
+  linux_download_url: string;
+};
+
+export type Canary = Commit & {
+  size: number;
+};
+
+const commitCache = canaryJSON.map((canary): Canary => ({
+  ...canary,
+  authoredDate: new Date(canary.authoredDate as string),
+  size: typeof canary.size === "string"
+    ? parseInt(canary.size, 10)
+    : canary.size,
+})) as Canary[];
+
 // Function to fetch the size of a canary based on its URL
 export const fetchSize = async (url: string): Promise<number | null> => {
   try {
@@ -21,16 +42,34 @@ export const fetchSize = async (url: string): Promise<number | null> => {
 const generateUrl = (commitHash: string) =>
   `https://dl.deno.land/canary/${commitHash}/deno-x86_64-unknown-linux-gnu.zip`;
 
-type Commit = {
-  hash: string;
-  subject: string;
-  authoredDate: Date;
-  linux_download_url: string;
-};
+/**
+ * Query the GitHub API via GraphQL and return the response as JSON.
+ */
+async function ghql(
+  strings: TemplateStringsArray,
+  ...keys: string[]
+): Promise<object> {
+  const headers = new Headers();
 
-export type Canary = Commit & {
-  size: number;
-};
+  if (Deno.env.get("GITHUB_TOKEN") == null) {
+    throw new Error("Environment variable GITHUB_TOKEN must be set");
+  }
+
+  headers.set("Authorization", `Bearer ${Deno.env.get("GITHUB_TOKEN")}`);
+  headers.set("Content-Type", "application/json");
+
+  const query = strings.reduce((acc, str, i) => {
+    return acc + str + (keys[i] || "");
+  }, "");
+
+  const response = await fetch("https://api.github.com/graphql", {
+    method: "POST",
+    headers: headers,
+    body: JSON.stringify({ query }),
+  });
+
+  return await response.json();
+}
 
 // Fetch sizes and augment the data array
 const fetchDataWithSize = async (
@@ -50,49 +89,38 @@ const fetchDataWithSize = async (
   return await Promise.all(promises);
 };
 
-async function fetchCommitsSinceTag(tag: string) {
-  const headers = new Headers();
-
-  if (Deno.env.get("GITHUB_TOKEN") == null) {
-    throw new Error("Environment variable GITHUB_TOKEN must be set");
+async function getHashForTag(tag: string) {
+  const tagResponse = await ghql`
+  query {
+    repository(owner: "denoland", name: "deno") {
+      ref(qualifiedName: "${tag}") {
+        target {
+          id
+          commitUrl
+          oid
+        }
+      }
+    }
   }
-
-  headers.set("Authorization", `Bearer ${Deno.env.get("GITHUB_TOKEN")}`);
-  headers.set("Content-Type", "application/json");
-
-  // First fetch the commit hash for the given tag
-  const tagQuery = `
-      query {
-          repository(owner: "denoland", name: "deno") {
-            ref(qualifiedName: "${tag}") {
-              target {
-                id
-                commitUrl
-                oid
-              }
-            }
-          }
-        }`;
-
-  const tagResponse = await fetch("https://api.github.com/graphql", {
-    method: "POST",
-    headers: headers,
-    body: JSON.stringify({ query: tagQuery }),
-  }).then((r) => r.json());
+  `;
 
   if (tagResponse.data.repository.ref.target.oid == null) {
     throw new Error(`Hash for ${tag} not found`);
   }
 
-  const startCommitHash = tagResponse.data.repository.ref.target.oid;
+  return tagResponse.data.repository.ref.target.oid;
+}
+
+async function fetchCommitsSinceTag(tag: string) {
+  const startCommitHash = await getHashForTag(tag);
   console.log(`Commit for ${tag} is ${startCommitHash}`);
 
   let commits: Commit[] = [];
-  let endCursor = null;
+  let endCursor: string | null = null;
 
   while (true) {
     // Fetch commit history
-    const historyQuery = `
+    const historyResponse = await ghql`
         query {
           repository(owner: "denoland", name: "deno") {
             ref(qualifiedName: "main") {
@@ -118,17 +146,9 @@ async function fetchCommitsSinceTag(tag: string) {
           }
       }`;
 
-    const historyResponse: object = await fetch(
-      "https://api.github.com/graphql",
-      {
-        method: "POST",
-        headers: headers,
-        body: JSON.stringify({ query: historyQuery }),
-      },
-    ).then((r) => r.json());
-
     // @ts-ignore I don't feel like typing the GraphQL response
     const history = historyResponse.data.repository.ref.target.history;
+
     const newCommits = history.edges.map((
       edge: any,
     ): Commit => ({
@@ -142,8 +162,11 @@ async function fetchCommitsSinceTag(tag: string) {
 
     // Check if we've reached the starting commit hash
     if (commits.some((commit) => commit.hash === startCommitHash)) {
+      console.log("Reached starting commit hash");
       break;
     }
+
+    console.log(history.pageInfo);
 
     // Check if more pages are available
     if (history.pageInfo.hasNextPage) {
@@ -154,21 +177,34 @@ async function fetchCommitsSinceTag(tag: string) {
   }
 
   // Filter commits after the starting commit hash
-  commits = commits.slice(
-    0,
-    commits.findIndex((commit) => commit.hash === startCommitHash),
-  );
+  // commits = commits.slice(
+  // 0,
+  // commits.findIndex((commit) => commit.hash === startCommitHash),
+  // );
 
   return commits;
 }
 
-export async function fetchCanariesSinceTag(tag: string) {
+export async function fetchCanariesSinceTag(tag: string, useCache = true) {
+  if (useCache) {
+    const tagHash = await getHashForTag(tag);
+
+    const canaries = commitCache.slice(
+      0,
+      commitCache.findIndex((commit) => commit.hash === tagHash),
+    );
+
+    // TODO: get `fetchCommitsSinceTag(commitCache[lastIndex].hash)` so that future items are collected
+
+    return canaries;
+  }
+
   const commits = await fetchCommitsSinceTag(tag);
   let canaries = await fetchDataWithSize(commits);
 
-  canaries = canaries.reverse().map((d) => ({ ...d, size: +d.size })).filter(
+  canaries = canaries.map((d) => ({ ...d, size: +d.size })).filter(
     (d) => d.size > 3_000,
-  ).reverse();
+  );
 
   return canaries;
 }

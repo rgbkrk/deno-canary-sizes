@@ -10,7 +10,7 @@ const jupyterLines = canaries.filter((point: Canary) =>
 Deno.serve((_req) => {
   const el = Plot.plot({
     marginLeft: 100,
-    height: 600,
+    height: 300,
     width: 800,
     marks: [
       Plot.lineY(canaries, {
@@ -23,34 +23,49 @@ Deno.serve((_req) => {
         x: "authoredDate",
         y2: "size",
       }),
-      Plot.text(
-        ["This chart shows the size of the Deno canary on Linux over time."],
-        {
-          lineWidth: 22,
-          fontWeight: "bold",
-          fontSize: "12px",
-          frameAnchor: "middle",
-          dx: -160,
-          dy: -150,
-        },
-      ),
-
-      Plot.text(
-        ["Commits that contain Jupyter related changes are in orange"],
-        {
-          lineWidth: 30,
-          frameAnchor: "middle",
-          dx: -160,
-          dy: -120,
-        },
-      ),
     ],
   });
 
-  console.log(el);
+  const style = `
+  body {
+    font-family: system-ui;
+    margin: 32px;
+  }
+
+  h2 {
+    font-size: 1.5em;
+    font-weight: 600;
+  }
+
+  h3 {
+    font-size: 1.25em;
+    font-weight: 400;
+  }
+
+  .jupyter-orange {
+    color: orange;
+  }
+
+  footer {
+    margin-top: 32px;
+    font-size: 0.75em;
+  }
+
+  footer a {
+    color: black;
+  }
+  `;
 
   return new Response(
-    `<html><body>${el.toString()}</body></html>`,
+    `<html><style>${style}</style><body>
+    <h2>Size of the Deno Canary on Linux over time (in commits)</h2>
+    <h3>Commits that contain Jupyter related changes are in <span class="jupyter-orange">orange</span></h3>
+    ${el.toString()}
+
+    <footer>
+      View <a href="https://github.com/rgbkrk/deno-canary-sizes">deno-canary-sizes</a> on GitHub.
+    </footer>
+    </body></html>`,
     {
       headers: {
         "content-type": "text/html; charset=UTF-8",

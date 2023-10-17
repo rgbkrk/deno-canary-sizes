@@ -1,0 +1,2060 @@
+[
+  {
+    "hash": "7561f6eceacc46c6f4f5f66cf03e627821b64f02",
+    "subject": "fix(lsp): include mtime in tsc script version (#20911)",
+    "authoredDate": "2023-10-17T04:13:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7561f6eceacc46c6f4f5f66cf03e627821b64f02/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43527895
+  },
+  {
+    "hash": "659cd90758c7fbfc7dd5896e35c20f3a79ec65cb",
+    "subject": "feat(lsp): respect \"typescript.preferences.quoteStyle\" when deno.json…",
+    "authoredDate": "2023-10-17T01:51:42.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/659cd90758c7fbfc7dd5896e35c20f3a79ec65cb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43527491
+  },
+  {
+    "hash": "ebb7fe412e97e851a9373be71931f13930e7a02e",
+    "subject": "fix(lsp): show diagnostics for untitled files (#20916)",
+    "authoredDate": "2023-10-16T19:21:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ebb7fe412e97e851a9373be71931f13930e7a02e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43528440
+  },
+  {
+    "hash": "cb70c4d0c4c97999deef0c13eaf91db635957517",
+    "subject": "fix(node): resolve file.d specifiers in npm packages (#20918)",
+    "authoredDate": "2023-10-16T15:26:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/cb70c4d0c4c97999deef0c13eaf91db635957517/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43526120
+  },
+  {
+    "hash": "bd238be4b5f26126fee8820d2a64c6660dfd6b6b",
+    "subject": "fix(lsp): don't commit registry completions on \"/\" (#20902)",
+    "authoredDate": "2023-10-13T13:38:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/bd238be4b5f26126fee8820d2a64c6660dfd6b6b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43528731
+  },
+  {
+    "hash": "7599990a4fe66bacdc00c12cbe3b8e800160bf68",
+    "subject": "perf(ext/streams): optimize streams (#20649)",
+    "authoredDate": "2023-10-13T12:30:09.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7599990a4fe66bacdc00c12cbe3b8e800160bf68/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43528770
+  },
+  {
+    "hash": "5da1bd802ca33cded6e5efad8dcd2155e448993c",
+    "subject": "chore: forward v1.37.2 release commit to main (#20897)",
+    "authoredDate": "2023-10-13T03:12:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5da1bd802ca33cded6e5efad8dcd2155e448993c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43522062
+  },
+  {
+    "hash": "48e695a2c89edad6e4880e7decfdb36d524f8279",
+    "subject": "feat(unstable): add Deno.jupyter.display API (#20819)",
+    "authoredDate": "2023-10-12T22:32:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/48e695a2c89edad6e4880e7decfdb36d524f8279/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43521349
+  },
+  {
+    "hash": "c464cd7073c761780b3170a48542c387560e3f26",
+    "subject": "refactor: FeatureChecker integration in ext/ crates (#20797)",
+    "authoredDate": "2023-10-12T15:55:50.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c464cd7073c761780b3170a48542c387560e3f26/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43518803
+  },
+  {
+    "hash": "5dd010a4fbeb0602891ea537b98216b8ad7d27a7",
+    "subject": "feat(lsp): send \"deno/didChangeDenoConfiguration\" notifications (#20827)",
+    "authoredDate": "2023-10-12T15:07:27.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5dd010a4fbeb0602891ea537b98216b8ad7d27a7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43509576
+  },
+  {
+    "hash": "eaeb10cee123b8184148c957151be226fb865bd2",
+    "subject": "perf(lsp): fix redundant file reads (#20802)",
+    "authoredDate": "2023-10-12T14:37:56.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/eaeb10cee123b8184148c957151be226fb865bd2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43497756
+  },
+  {
+    "hash": "cee221109a61406004817b09361bf3674ab06cde",
+    "subject": "fix(node/http2): fixes to support grpc (#20712)",
+    "authoredDate": "2023-10-12T14:03:19.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/cee221109a61406004817b09361bf3674ab06cde/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43496042
+  },
+  {
+    "hash": "2fb9ddd2e6d6a89ee3c362038581b37e9d388c92",
+    "subject": "chore(task): remove warning for npm \"scripts\" (#20880)",
+    "authoredDate": "2023-10-12T06:33:59.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2fb9ddd2e6d6a89ee3c362038581b37e9d388c92/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43486749
+  },
+  {
+    "hash": "27a813daaa2da76a94ad90b50377edf7b2cb67cf",
+    "subject": "docs: update readme hello world example (#20874)",
+    "authoredDate": "2023-10-11T14:43:41.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/27a813daaa2da76a94ad90b50377edf7b2cb67cf/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43484255
+  },
+  {
+    "hash": "93e07fa118c04a70770aaed444b21afbd46d1bf5",
+    "subject": "fix: upgrade dprint-plugin-markdown 0.16.2 and typescript 0.88.1 (#20…",
+    "authoredDate": "2023-10-11T05:48:03.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/93e07fa118c04a70770aaed444b21afbd46d1bf5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43484911
+  },
+  {
+    "hash": "8ba1242a0573121bb12ab3ad1e241956151a142f",
+    "subject": "feat(WebSocketStream): rename connection to opened (#20878)",
+    "authoredDate": "2023-10-11T05:31:05.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8ba1242a0573121bb12ab3ad1e241956151a142f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43480059
+  },
+  {
+    "hash": "2215a3ea2e79dd579388872d6e12e6ee987e745b",
+    "subject": "fix(lsp): normalize \"deno:\" urls statelessly (#20867)",
+    "authoredDate": "2023-10-10T18:32:22.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2215a3ea2e79dd579388872d6e12e6ee987e745b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43480090
+  },
+  {
+    "hash": "7b80b27a96026cccb892815f19855b9aec79968c",
+    "subject": "chore: disable another flaky Node compat test (#20872)",
+    "authoredDate": "2023-10-10T18:17:11.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7b80b27a96026cccb892815f19855b9aec79968c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43480772
+  },
+  {
+    "hash": "0606c1140389d8e036087bb24e03bc43d727ffd0",
+    "subject": "fix(bench): use total time when measuring wavg (#20862)",
+    "authoredDate": "2023-10-10T13:40:36.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0606c1140389d8e036087bb24e03bc43d727ffd0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43477721
+  },
+  {
+    "hash": "6450334f5bbb059b55005cebfef57fa7969b625e",
+    "subject": "feat(ext/web): cancel support for TransformStream (#20815)",
+    "authoredDate": "2023-10-10T09:42:31.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6450334f5bbb059b55005cebfef57fa7969b625e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43479761
+  },
+  {
+    "hash": "6bbccb72d7153f95688b63391672f2e2b979eeed",
+    "subject": "refactor(lsp): add \"deno.reloadImportRegistries\" as a command (#20823)",
+    "authoredDate": "2023-10-10T04:53:41.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6bbccb72d7153f95688b63391672f2e2b979eeed/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43480173
+  },
+  {
+    "hash": "2665ca103e64ae07d7c29d3400d0c37ec691ff50",
+    "subject": "fix(ext/web): writability of `ReadableStream.from` (#20836)",
+    "authoredDate": "2023-10-10T03:01:01.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2665ca103e64ae07d7c29d3400d0c37ec691ff50/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43476552
+  },
+  {
+    "hash": "84c9300aff08a9a1dcb214356f022315cc6736fb",
+    "subject": "fix(lsp): allow formatting vendor files (#20844)",
+    "authoredDate": "2023-10-09T22:43:32.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/84c9300aff08a9a1dcb214356f022315cc6736fb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43480360
+  },
+  {
+    "hash": "29026fac21d85a530d87ca3e94ae0d547557fa23",
+    "subject": "chore: disable another flaky Node compat test (#20846)",
+    "authoredDate": "2023-10-09T11:23:40.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/29026fac21d85a530d87ca3e94ae0d547557fa23/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43477172
+  },
+  {
+    "hash": "d868bae90a5437c75c52ac831c59030120cfdc88",
+    "subject": "chore: disable flaky Node compat test (#20832)",
+    "authoredDate": "2023-10-09T08:57:32.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d868bae90a5437c75c52ac831c59030120cfdc88/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43479357
+  },
+  {
+    "hash": "ae81065c758a540aa61639e51372c1e254d92c9a",
+    "subject": "fix(ext/http): Deno.Server should not be thenable (#20723)",
+    "authoredDate": "2023-10-09T03:43:14.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ae81065c758a540aa61639e51372c1e254d92c9a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43477713
+  },
+  {
+    "hash": "35f028daf27bb40e86829e7b7cc19aa72a62c0a0",
+    "subject": "perf(lsp): optimize formatting minified files (#20829)",
+    "authoredDate": "2023-10-09T03:39:52.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/35f028daf27bb40e86829e7b7cc19aa72a62c0a0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43478075
+  },
+  {
+    "hash": "2167a52d693e79c661f91d29164f59111f3bc3c9",
+    "subject": "refactor: remove TimersPermissions::check_unstable (#20831)",
+    "authoredDate": "2023-10-09T00:08:10.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2167a52d693e79c661f91d29164f59111f3bc3c9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43476996
+  },
+  {
+    "hash": "dfc254cd57683f394f1b5fdca8c75200b2a9969d",
+    "subject": "fix: define window.name (#20804)",
+    "authoredDate": "2023-10-08T22:12:59.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/dfc254cd57683f394f1b5fdca8c75200b2a9969d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43475985
+  },
+  {
+    "hash": "d41d3b8e2f6079d806fb4bc4845b9ad681c20f00",
+    "subject": "refactor: migrate last tsc op to op2 macro (#20816)",
+    "authoredDate": "2023-10-08T19:00:41.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d41d3b8e2f6079d806fb4bc4845b9ad681c20f00/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43475748
+  },
+  {
+    "hash": "8706a20d1f62b3fa5293d31e622452ab26dbfd4b",
+    "subject": "bench: fix ops benchmarks (#20830)",
+    "authoredDate": "2023-10-08T18:43:14.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8706a20d1f62b3fa5293d31e622452ab26dbfd4b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43476650
+  },
+  {
+    "hash": "6cb5d8eb86fe205ad4f4411e20c206246ff25682",
+    "subject": "fix(ext/ffi): use anybuffer for op_ffi_ptr_of (#20820)",
+    "authoredDate": "2023-10-08T05:02:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6cb5d8eb86fe205ad4f4411e20c206246ff25682/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43476599
+  },
+  {
+    "hash": "effb5e1ce417e9b7f22adcdc598e9a5ec593f4a2",
+    "subject": "fix(node/buffer): utf8ToBytes should return a Uint8Array (#20769)",
+    "authoredDate": "2023-10-08T02:09:50.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/effb5e1ce417e9b7f22adcdc598e9a5ec593f4a2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43477314
+  },
+  {
+    "hash": "edeccef4990598620bf5595df6fc8c1b1b1a7f73",
+    "subject": "refactor: migrate more ops to op2 macro (#20808)",
+    "authoredDate": "2023-10-07T15:34:03.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/edeccef4990598620bf5595df6fc8c1b1b1a7f73/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43476471
+  },
+  {
+    "hash": "be7e2bd8c1883c6bf58db8ff40954ed7ee53b5c5",
+    "subject": "fix(cli): Support using both `--watch` and `--inspect` at the same ti…",
+    "authoredDate": "2023-10-06T21:33:14.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/be7e2bd8c1883c6bf58db8ff40954ed7ee53b5c5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43482944
+  },
+  {
+    "hash": "48bb3b2b0f519077e1a454034fbbe79d9db23c4a",
+    "subject": "feat(unstable): Await return from `Jupyter.display` (#20807)",
+    "authoredDate": "2023-10-06T21:26:11.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/48bb3b2b0f519077e1a454034fbbe79d9db23c4a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43483837
+  },
+  {
+    "hash": "ceecd8c495619284eee5763c1adb4afba345dceb",
+    "subject": "perf(ext/web): optimize structuredClone without transferables (#20730)",
+    "authoredDate": "2023-10-06T21:21:48.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ceecd8c495619284eee5763c1adb4afba345dceb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43482937
+  },
+  {
+    "hash": "cba5ae45c2422a4cf9df3a149a646a191a8f27b2",
+    "subject": "fix(jupyter): Rename logo assets so they are discoverable (#20806)",
+    "authoredDate": "2023-10-06T20:31:12.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/cba5ae45c2422a4cf9df3a149a646a191a8f27b2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43483558
+  },
+  {
+    "hash": "677a591e56251821051412ca13beae5d6ff29f69",
+    "subject": "fix(lsp): percent-encode host in deno: specifiers (#20811)",
+    "authoredDate": "2023-10-06T13:46:43.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/677a591e56251821051412ca13beae5d6ff29f69/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43477799
+  },
+  {
+    "hash": "f0608a5b9173fbcab4077e0f6a8da2b8c98685dd",
+    "subject": "refactor: migrate ext/node/ops to op2 (#20805)",
+    "authoredDate": "2023-10-05T22:16:36.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f0608a5b9173fbcab4077e0f6a8da2b8c98685dd/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43482834
+  },
+  {
+    "hash": "ac464ead49c9f676d7117baa2ab06433e132e188",
+    "subject": "feat(jupyter): support Deno.test() (#20778)",
+    "authoredDate": "2023-10-05T20:45:11.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ac464ead49c9f676d7117baa2ab06433e132e188/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43454974
+  },
+  {
+    "hash": "820e93e3e742a22f010f3200312039c50ae0d63a",
+    "subject": "refactor(npm): add referrer when resolving npm package sub path from …",
+    "authoredDate": "2023-10-05T20:18:29.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/820e93e3e742a22f010f3200312039c50ae0d63a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43444485
+  },
+  {
+    "hash": "7a01799f490739612be27725f1584a995f6b1491",
+    "subject": "chore: update to Rust 1.73 (#20781)",
+    "authoredDate": "2023-10-05T18:49:09.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7a01799f490739612be27725f1584a995f6b1491/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43441758
+  },
+  {
+    "hash": "ab3c9d41e483e5a7e6a326c66af7052a51301f91",
+    "subject": "fix(ext/node): implement uv.errname (#20785)",
+    "authoredDate": "2023-10-05T18:27:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ab3c9d41e483e5a7e6a326c66af7052a51301f91/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43530978
+  },
+  {
+    "hash": "176bf9ba5ffe1c925e7d6a395d0e946880afdcda",
+    "subject": "fix(ext/formdata): support multiple headers in FormData (#20801)",
+    "authoredDate": "2023-10-05T17:28:44.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/176bf9ba5ffe1c925e7d6a395d0e946880afdcda/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43529369
+  },
+  {
+    "hash": "1619932a651a189d590bd579f334faac3c6b4397",
+    "subject": "chore(ext/ffi): migrate from op -> op2 for ffi (#20509)",
+    "authoredDate": "2023-10-05T13:35:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1619932a651a189d590bd579f334faac3c6b4397/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43530607
+  },
+  {
+    "hash": "5d98a544b421e2b0bc3f99318fe44d1fed6d95d9",
+    "subject": "refactor: rewrite several extension ops to op2 (#20457)",
+    "authoredDate": "2023-10-05T12:34:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5d98a544b421e2b0bc3f99318fe44d1fed6d95d9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43522428
+  },
+  {
+    "hash": "551a08145098e95022efb778308d677db60a67cc",
+    "subject": "refactor(test): support custom writer in PrettyTestReporter (#20783)",
+    "authoredDate": "2023-10-05T10:25:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/551a08145098e95022efb778308d677db60a67cc/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43503036
+  },
+  {
+    "hash": "fd4fc2d81830c8350ccdc7be689db31183ada235",
+    "subject": "docs: update alternative APIs for `write()`, `writeSync()`, `read()` …",
+    "authoredDate": "2023-10-05T08:44:37.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/fd4fc2d81830c8350ccdc7be689db31183ada235/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43496539
+  },
+  {
+    "hash": "1ff525e25b6ca833893c03f720a1298adffb37db",
+    "subject": "refactor(node): combine node resolution code for resolving a package …",
+    "authoredDate": "2023-10-05T03:05:12.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1ff525e25b6ca833893c03f720a1298adffb37db/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43497155
+  },
+  {
+    "hash": "64f9155126b1cd14a46de58ae1654045cfacd150",
+    "subject": "fix(lsp): show diagnostics for type imports from untyped deps (#20780)",
+    "authoredDate": "2023-10-05T00:38:11.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/64f9155126b1cd14a46de58ae1654045cfacd150/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43503429
+  },
+  {
+    "hash": "1a81b2826d7e0f64831c7a96d3cfb113ea6e7eb7",
+    "subject": "refactor: rewrite websocket to use op2 macro (#20140)",
+    "authoredDate": "2023-10-04T21:43:58.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1a81b2826d7e0f64831c7a96d3cfb113ea6e7eb7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43500728
+  },
+  {
+    "hash": "cbddf5756e07fbbe10bd35d23bb9e9c0c685442a",
+    "subject": "fix(jupyter): keep `this` around (#20789)",
+    "authoredDate": "2023-10-04T21:08:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/cbddf5756e07fbbe10bd35d23bb9e9c0c685442a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43473737
+  },
+  {
+    "hash": "a5568066b3d979111134029f9e4f0c1b462b948e",
+    "subject": "refactor: use deno_core::FeatureChecker for unstable checks (#20765)",
+    "authoredDate": "2023-10-04T19:42:17.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a5568066b3d979111134029f9e4f0c1b462b948e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43472054
+  },
+  {
+    "hash": "9a46a824bd897e240af8a14f9d950ab6d95f42a5",
+    "subject": "feat(jupyter): send binary data with `Deno.jupyter.broadcast` (#20755)",
+    "authoredDate": "2023-10-04T11:05:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9a46a824bd897e240af8a14f9d950ab6d95f42a5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43475498
+  },
+  {
+    "hash": "da0b945804f19903beac71b23ff1040ebdb9b554",
+    "subject": "feat(unstable): add unix domain socket support to Deno.serve (#20759)",
+    "authoredDate": "2023-10-04T02:37:39.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/da0b945804f19903beac71b23ff1040ebdb9b554/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43471296
+  },
+  {
+    "hash": "8c1677ecbcbb474fc6a5ac9b5f73b562677bb829",
+    "subject": "refactor(npm): break up `NpmModuleLoader` and move more methods into …",
+    "authoredDate": "2023-10-03T23:05:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8c1677ecbcbb474fc6a5ac9b5f73b562677bb829/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43471146
+  },
+  {
+    "hash": "494822175fd69f8c20a2e21ddcedcb3287064cce",
+    "subject": "chore: upgrade deno_core to 0.220.0 (#20766)",
+    "authoredDate": "2023-10-03T23:01:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/494822175fd69f8c20a2e21ddcedcb3287064cce/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43470515
+  },
+  {
+    "hash": "148694eb351ea3f733852b7786a3268617811e27",
+    "subject": "refactor(npm): make `NpmCache`, `CliNpmRegistryApi`, and `NpmResoluti…",
+    "authoredDate": "2023-10-02T21:53:55.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/148694eb351ea3f733852b7786a3268617811e27/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43408133
+  },
+  {
+    "hash": "d5b6c636b09823bfaa97fe8cd382b654d85d2add",
+    "subject": "fix(ext/node): don't call undefined nextTick fn (#20724)",
+    "authoredDate": "2023-10-02T12:13:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d5b6c636b09823bfaa97fe8cd382b654d85d2add/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43409419
+  },
+  {
+    "hash": "6fd2d0841871018bd394ebbdccd4c1f39e5cf773",
+    "subject": "refactor(lsp): clean up tsc requests (#20743)",
+    "authoredDate": "2023-10-02T06:32:05.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6fd2d0841871018bd394ebbdccd4c1f39e5cf773/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43412119
+  },
+  {
+    "hash": "de25c81fd0860d0fb604d105534721d8b37a4abd",
+    "subject": "perf(ext/web): optimize DOMException (#20715)",
+    "authoredDate": "2023-10-02T00:18:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/de25c81fd0860d0fb604d105534721d8b37a4abd/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43416218
+  },
+  {
+    "hash": "8d24be1a59714761665516e0d78d25059608c29b",
+    "subject": "refactor(npm): create `cli::npm::managed` module (#20740)",
+    "authoredDate": "2023-09-30T16:06:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8d24be1a59714761665516e0d78d25059608c29b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43415373
+  },
+  {
+    "hash": "1cda3840ff673512f7c6d58fa8402c35c760bc3b",
+    "subject": "perf(node): use faster utf8 byte length in Buffer#from (#20746)",
+    "authoredDate": "2023-09-30T14:34:40.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1cda3840ff673512f7c6d58fa8402c35c760bc3b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43508435
+  },
+  {
+    "hash": "74e4c7f80ff1cee534f2da2870d0ddf73f7cb932",
+    "subject": "feat(node/os): Add `availableParallelism` (#20745)",
+    "authoredDate": "2023-09-30T14:21:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/74e4c7f80ff1cee534f2da2870d0ddf73f7cb932/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43508385
+  },
+  {
+    "hash": "9017e789df59aa8fba400f3ad8ae3b8b8290b4a8",
+    "subject": "test(node_compat): add `test-http-url.parse*` (#20458)",
+    "authoredDate": "2023-09-30T08:14:48.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9017e789df59aa8fba400f3ad8ae3b8b8290b4a8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43508547
+  },
+  {
+    "hash": "7bcf1211a1494c188c9de83670d328c0492de98a",
+    "subject": "feat(jupyter): send Jupyter messaging metadata with `Deno.jupyter.bro…",
+    "authoredDate": "2023-09-29T22:24:09.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7bcf1211a1494c188c9de83670d328c0492de98a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43506131
+  },
+  {
+    "hash": "2d1af0cf51bac446f1c92e8a12db9b5052e37e12",
+    "subject": "feat(lsp): jupyter notebook analysis (#20719)",
+    "authoredDate": "2023-09-29T19:44:59.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2d1af0cf51bac446f1c92e8a12db9b5052e37e12/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43508628
+  },
+  {
+    "hash": "61b91e10ad41e6d207d60113a2f6f2b63a706940",
+    "subject": "fix(ext/kv): send queue wake messages accross different kv instances …",
+    "authoredDate": "2023-09-29T18:40:36.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/61b91e10ad41e6d207d60113a2f6f2b63a706940/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43489111
+  },
+  {
+    "hash": "5edd102f3f912a53c7bcad3b0fa4feb672ada323",
+    "subject": "refactor(cli): make `CliNpmResolver` a trait (#20732)",
+    "authoredDate": "2023-09-29T13:26:25.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5edd102f3f912a53c7bcad3b0fa4feb672ada323/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43490597
+  },
+  {
+    "hash": "d43e48c4e96b02289d505cd2558ba85d7d6cb57b",
+    "subject": "refactor(ext/node): remove dependency on deno_npm and deno_semver (#2…",
+    "authoredDate": "2023-09-28T20:43:45.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d43e48c4e96b02289d505cd2558ba85d7d6cb57b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43490775
+  },
+  {
+    "hash": "0bd53fd52d8937afed401fe1c61bb2ba0b23501c",
+    "subject": "fix(jupyter): more robust Deno.jupyter namespace (#20710)",
+    "authoredDate": "2023-09-28T14:51:44.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0bd53fd52d8937afed401fe1c61bb2ba0b23501c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43490373
+  },
+  {
+    "hash": "35fad4d2bc022b7053b5390ec1fb47ca28f4086e",
+    "subject": "fix(upgrade): use tar.exe to extract on Windows (#20711)",
+    "authoredDate": "2023-09-27T21:57:58.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/35fad4d2bc022b7053b5390ec1fb47ca28f4086e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43491424
+  },
+  {
+    "hash": "31991e221bd6e2d32016bdd2595ee668e8456c35",
+    "subject": "chore: add back dotcom step to release (#20713)",
+    "authoredDate": "2023-09-27T19:22:39.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/31991e221bd6e2d32016bdd2595ee668e8456c35/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43488369
+  },
+  {
+    "hash": "8ef52b3e6ac1bb2a369ce2eed2d64997a8d5f3ab",
+    "subject": "chore(ext/ffi): migrate part of FFI to op2 (#20699)",
+    "authoredDate": "2023-09-27T13:54:43.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8ef52b3e6ac1bb2a369ce2eed2d64997a8d5f3ab/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43493645
+  },
+  {
+    "hash": "507f24c4746e24ea60dcebdffacd0b66e3d4bfc1",
+    "subject": "fix(ext/node): fix TypeError in Buffer.from with base64url encoding. …",
+    "authoredDate": "2023-09-27T13:54:19.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/507f24c4746e24ea60dcebdffacd0b66e3d4bfc1/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43473042
+  },
+  {
+    "hash": "aef56f3d70f3c898d7c99b74ad72cc08a16e5780",
+    "subject": "fix(cli): panic with __runtime_js_sources (#20704)",
+    "authoredDate": "2023-09-27T10:55:54.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/aef56f3d70f3c898d7c99b74ad72cc08a16e5780/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43474258
+  },
+  {
+    "hash": "3b78981ffe7cbc210da4a8ba3852f3fed48082ce",
+    "subject": "chore: forward v1.37.1 release commit to main (#20706)",
+    "authoredDate": "2023-09-27T09:13:48.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/3b78981ffe7cbc210da4a8ba3852f3fed48082ce/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43474369
+  },
+  {
+    "hash": "f58a400585020b1b4765093b791c0d79882adbbf",
+    "subject": "feat(ext/kv): support key expiration in remote backend (#20688)",
+    "authoredDate": "2023-09-27T05:34:09.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f58a400585020b1b4765093b791c0d79882adbbf/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43472519
+  },
+  {
+    "hash": "f0a022bed4c8ca46c472c6361f1793cb29f73480",
+    "subject": "fix(kv_queues): graceful shutdown (#20627)",
+    "authoredDate": "2023-09-27T03:06:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f0a022bed4c8ca46c472c6361f1793cb29f73480/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43476156
+  },
+  {
+    "hash": "b433133a1ff1c329b05ce024d8db5fefb8f7b431",
+    "subject": "fix(lsp): allow query strings for \"deno:/status.md\" (#20697)",
+    "authoredDate": "2023-09-27T00:48:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b433133a1ff1c329b05ce024d8db5fefb8f7b431/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43473086
+  },
+  {
+    "hash": "46a4bd5178f5aed22041422c431b5ab6f697865d",
+    "subject": "feat(unstable): add `Deno.jupyter.broadcast` API (#20656)",
+    "authoredDate": "2023-09-27T00:21:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/46a4bd5178f5aed22041422c431b5ab6f697865d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43472349
+  },
+  {
+    "hash": "d39659332c224dfee51a43499c2d2d5da12a0da8",
+    "subject": "chore: update deno_core and cargo update (#20696)",
+    "authoredDate": "2023-09-26T23:38:43.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d39659332c224dfee51a43499c2d2d5da12a0da8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43460940
+  },
+  {
+    "hash": "91832ce2784b68cfd1d2c322d5f5396256ccf4d7",
+    "subject": "fix(upgrade): error instead of panic on unzip failure (#20691)",
+    "authoredDate": "2023-09-26T21:52:47.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/91832ce2784b68cfd1d2c322d5f5396256ccf4d7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43466342
+  },
+  {
+    "hash": "cb154d6afa3d260e3b281404155d04806aa2014c",
+    "subject": "chore(lsp): bump tower-lsp to 0.20.0 (#20693)",
+    "authoredDate": "2023-09-26T20:57:14.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/cb154d6afa3d260e3b281404155d04806aa2014c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43469967
+  },
+  {
+    "hash": "dcb00bb9b8bf39f0caa6bb87b6b11e1344803bb9",
+    "subject": "chore: slight cleanup in npm resolvers (#20692)",
+    "authoredDate": "2023-09-26T20:42:39.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/dcb00bb9b8bf39f0caa6bb87b6b11e1344803bb9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43396164
+  },
+  {
+    "hash": "50a3209fff38d1decd1642d1175aec78b897d08b",
+    "subject": "chore: deprecate Deno.metrics() API (#20684)",
+    "authoredDate": "2023-09-26T15:34:53.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/50a3209fff38d1decd1642d1175aec78b897d08b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43396756
+  },
+  {
+    "hash": "3c0d6de1558629fa4e314e1790a313d5a226d44e",
+    "subject": "refactor: rewrite ext/node/crypto to op2 macro (#20675)",
+    "authoredDate": "2023-09-26T12:07:04.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/3c0d6de1558629fa4e314e1790a313d5a226d44e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43399676
+  },
+  {
+    "hash": "8fcea5966c0e723c30e00f6661477dc2e7062d11",
+    "subject": "refactor(ext/http): use scopeguard defer to handle async drop (#20652)",
+    "authoredDate": "2023-09-26T11:42:48.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8fcea5966c0e723c30e00f6661477dc2e7062d11/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43364897
+  },
+  {
+    "hash": "c68650d53244ab5cc3cda232085a63cbb497f83b",
+    "subject": "fix(cli/test): clear connection pool after tests (#20680)",
+    "authoredDate": "2023-09-26T10:46:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c68650d53244ab5cc3cda232085a63cbb497f83b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43377125
+  },
+  {
+    "hash": "6f87962a77f3dd409c71ff490fd5f36023b7b700",
+    "subject": "chore: clean up lint script (#20682)",
+    "authoredDate": "2023-09-26T04:41:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6f87962a77f3dd409c71ff490fd5f36023b7b700/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43377949
+  },
+  {
+    "hash": "939279aa1075aab9b647e9a149df31da346fa7f2",
+    "subject": "feat(lsp): support more vscode built-in settings (#20679)",
+    "authoredDate": "2023-09-26T02:54:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/939279aa1075aab9b647e9a149df31da346fa7f2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43374823
+  },
+  {
+    "hash": "8e1304ced4e04e8fac20948ea8ea89362a06ac47",
+    "subject": "perf(test): use fast ops for deno test register (#20670)",
+    "authoredDate": "2023-09-26T02:21:18.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8e1304ced4e04e8fac20948ea8ea89362a06ac47/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43363774
+  },
+  {
+    "hash": "a879f8c9fa5a2dd6da00b67711c025c300e9b600",
+    "subject": "test: unflake serve_test/httpServerTcpCancellation (#20672)",
+    "authoredDate": "2023-09-26T02:12:12.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a879f8c9fa5a2dd6da00b67711c025c300e9b600/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43373863
+  },
+  {
+    "hash": "26f431fd14e96cb631042aa3feaf4267cb235f38",
+    "subject": "perf(test): use core.currentUserCallSite (#20669)",
+    "authoredDate": "2023-09-26T01:01:56.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/26f431fd14e96cb631042aa3feaf4267cb235f38/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43374300
+  },
+  {
+    "hash": "a27ee8f368dbac33141fdcb9a17d0e4ea907b8ef",
+    "subject": "fix(ext/http): ensure that resources are closed when request is cance…",
+    "authoredDate": "2023-09-25T15:23:55.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a27ee8f368dbac33141fdcb9a17d0e4ea907b8ef/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43374746
+  },
+  {
+    "hash": "83f20007aac0f9ebb0eb59b71a932e7a91d5d9a7",
+    "subject": "docs: fix broken deno manual link (#20667)",
+    "authoredDate": "2023-09-25T12:09:27.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/83f20007aac0f9ebb0eb59b71a932e7a91d5d9a7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43372417
+  },
+  {
+    "hash": "bb4b00df929a84d0302659700b97160f0fdbab78",
+    "subject": "feat(lsp): cache all dependencies quick fix (#20665)",
+    "authoredDate": "2023-09-24T22:33:52.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/bb4b00df929a84d0302659700b97160f0fdbab78/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43371223
+  },
+  {
+    "hash": "b2abae477115dc6ca97a767c6800c7c3f1aa0ebb",
+    "subject": "refactor: rewrite more ops to op2 (#20666)",
+    "authoredDate": "2023-09-24T22:07:22.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b2abae477115dc6ca97a767c6800c7c3f1aa0ebb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43370783
+  },
+  {
+    "hash": "98ef7bd8183f7fa534c3bfea8376d4c452b5d8d7",
+    "subject": "fix(lsp): resolve remote import maps (#20651)",
+    "authoredDate": "2023-09-24T17:00:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/98ef7bd8183f7fa534c3bfea8376d4c452b5d8d7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43339940
+  },
+  {
+    "hash": "40122d7f2a867660900612980dfc75eece0d5e29",
+    "subject": "fix(lsp): force correct media type detection from tsc (#20562)",
+    "authoredDate": "2023-09-19T15:37:27.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/40122d7f2a867660900612980dfc75eece0d5e29/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43128175
+  },
+  {
+    "hash": "9004117790fa23904daffafd347613820bda84ab",
+    "subject": "fix(lsp): refresh npm completions on each character (#20565)",
+    "authoredDate": "2023-09-19T12:01:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9004117790fa23904daffafd347613820bda84ab/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43126557
+  },
+  {
+    "hash": "2772d302f57cfdce09c7ba2df8a887d28eba8b9a",
+    "subject": "perf: make `deno test` 10x faster (#20550)",
+    "authoredDate": "2023-09-19T10:10:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2772d302f57cfdce09c7ba2df8a887d28eba8b9a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43127810
+  },
+  {
+    "hash": "b9b4ad31d991bdbc50ddaea8d423a5d285d5f317",
+    "subject": "refactor(lsp): dedup import map lookup for auto-imports (#20538)",
+    "authoredDate": "2023-09-18T23:59:26.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b9b4ad31d991bdbc50ddaea8d423a5d285d5f317/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43115460
+  },
+  {
+    "hash": "788bc8d021ab0ec2d58837b129c178300b2c2a39",
+    "subject": "fix(cli): Enhanced errors for Jupyter (#20530)",
+    "authoredDate": "2023-09-18T22:07:33.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/788bc8d021ab0ec2d58837b129c178300b2c2a39/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43119559
+  },
+  {
+    "hash": "3de9af4d0bf5a411e4c43ce1ce474665585502b9",
+    "subject": "fix(npm): properly handle legacy shasum of package (#20557)",
+    "authoredDate": "2023-09-18T20:40:41.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/3de9af4d0bf5a411e4c43ce1ce474665585502b9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43113523
+  },
+  {
+    "hash": "dc1da309274823c15ad8ade0545678f8a9b8e54d",
+    "subject": "fix(cli): for main-module that exists in package.json, use the versio…",
+    "authoredDate": "2023-09-18T20:02:58.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/dc1da309274823c15ad8ade0545678f8a9b8e54d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43103820
+  },
+  {
+    "hash": "f5963b6a0595810c0e4b6da793ce0d50a9944796",
+    "subject": "refactor(lsp): cleanup document preload (#20520)",
+    "authoredDate": "2023-09-18T19:58:16.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f5963b6a0595810c0e4b6da793ce0d50a9944796/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43103334
+  },
+  {
+    "hash": "86c04f43e0eda139a262c4f2e106e9b11e8d7da8",
+    "subject": "fix(lsp): pass quote preference to tsc (#20547)",
+    "authoredDate": "2023-09-18T19:48:32.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/86c04f43e0eda139a262c4f2e106e9b11e8d7da8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43108622
+  },
+  {
+    "hash": "f7ba7013045fc0629092ea4e07ce5c768a7ee95f",
+    "subject": "fix(lsp): prefer local auto-import specifiers (#20539)",
+    "authoredDate": "2023-09-18T18:55:24.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f7ba7013045fc0629092ea4e07ce5c768a7ee95f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43105954
+  },
+  {
+    "hash": "d72f5d573a59fc20ba465dffd1698984c7dde024",
+    "subject": "fix: `Deno.Command` - improve error message when `cwd` is not a direc…",
+    "authoredDate": "2023-09-18T17:48:54.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d72f5d573a59fc20ba465dffd1698984c7dde024/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43101980
+  },
+  {
+    "hash": "87ddd1f04d2b71aadb3a8a5fb3e4ac15988947c1",
+    "subject": "fix(lsp): restore tsc's quick fix ordering (#20545)",
+    "authoredDate": "2023-09-18T16:39:28.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/87ddd1f04d2b71aadb3a8a5fb3e4ac15988947c1/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43105859
+  },
+  {
+    "hash": "ee38bbbc8e716e0d91bf6558024240142d42f32c",
+    "subject": "fix(jupyter-kernel): don't log errors from objects without a `Symbol.…",
+    "authoredDate": "2023-09-18T16:31:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ee38bbbc8e716e0d91bf6558024240142d42f32c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43103028
+  },
+  {
+    "hash": "701931477c302c0fc9dbec529af5a16c198650aa",
+    "subject": "fix(cli): fetch works in Jupyter (#20552)",
+    "authoredDate": "2023-09-18T15:39:39.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/701931477c302c0fc9dbec529af5a16c198650aa/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43098963
+  },
+  {
+    "hash": "0709c051f83c181206f6653396f5428df66ed74f",
+    "subject": "feat(unstable): package manager (#20517)",
+    "authoredDate": "2023-09-18T14:46:44.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0709c051f83c181206f6653396f5428df66ed74f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43101539
+  },
+  {
+    "hash": "81d6ea8e1174d2b74c2a4806eaf279115cb3068f",
+    "subject": "feat(jupyter-kernel): accept nested objects from display calls (#20537)",
+    "authoredDate": "2023-09-17T16:38:52.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/81d6ea8e1174d2b74c2a4806eaf279115cb3068f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43098755
+  },
+  {
+    "hash": "23bf05cff265c11927b853003dab6c74b4712ec8",
+    "subject": "build: add an environment variable to skip cross build check (#20281)…",
+    "authoredDate": "2023-09-17T16:06:51.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/23bf05cff265c11927b853003dab6c74b4712ec8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43097371
+  },
+  {
+    "hash": "4960b6659c9cf305ae3578957e4d45419626c9b9",
+    "subject": "perf(ext/streams): optimize async iterator (#20541)",
+    "authoredDate": "2023-09-17T15:54:40.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/4960b6659c9cf305ae3578957e4d45419626c9b9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43098893
+  },
+  {
+    "hash": "fa18878f54c91c8335dd0abe911b1ee3d15c5607",
+    "subject": "fix(lsp): include JSON modules in local import completions (#20536)",
+    "authoredDate": "2023-09-17T06:50:30.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/fa18878f54c91c8335dd0abe911b1ee3d15c5607/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43103787
+  },
+  {
+    "hash": "3b2e553b05d84ea9de15d27b8e4ef5544e541cb1",
+    "subject": "set `evalue` to a one space string for truthiness on old jupyter (#20…",
+    "authoredDate": "2023-09-17T02:02:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/3b2e553b05d84ea9de15d27b8e4ef5544e541cb1/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43103960
+  },
+  {
+    "hash": "e995ba66cd7400e0c87af6e530e74a6aa7c7c934",
+    "subject": "docs(contributing): Fix README link to contributing docs (#20526)",
+    "authoredDate": "2023-09-16T21:54:28.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/e995ba66cd7400e0c87af6e530e74a6aa7c7c934/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43103648
+  },
+  {
+    "hash": "16b7c9cd8d0b23ea51ad0070c7589ebefb3d51fa",
+    "subject": "perf(ext/http): optimize `set_response` for small responses (#20527)",
+    "authoredDate": "2023-09-16T21:15:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/16b7c9cd8d0b23ea51ad0070c7589ebefb3d51fa/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43096733
+  },
+  {
+    "hash": "d13e6e6db8b3d3f1b8a4e86492e406c3c42d2a9d",
+    "subject": "feat(lsp): include source in auto import completion label (#20523)",
+    "authoredDate": "2023-09-16T14:51:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d13e6e6db8b3d3f1b8a4e86492e406c3c42d2a9d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43097096
+  },
+  {
+    "hash": "430b63c2c4d6567a77e77980058ef13b45a9f30e",
+    "subject": "perf: improve async op santizer speed and accuracy (#20501)",
+    "authoredDate": "2023-09-16T05:48:31.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/430b63c2c4d6567a77e77980058ef13b45a9f30e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43100608
+  },
+  {
+    "hash": "bf0760411336ce5ebb1c103f766c8154af478414",
+    "subject": "feat: Add \"deno jupyter\" subcommand (#20337)",
+    "authoredDate": "2023-09-16T00:42:09.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/bf0760411336ce5ebb1c103f766c8154af478414/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 43094939
+  },
+  {
+    "hash": "5a1505db67d0326bf37b765c8a566584b44a2c1a",
+    "subject": "feat(ext/node): http2.connect() API (#19671)",
+    "authoredDate": "2023-09-15T19:51:25.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5a1505db67d0326bf37b765c8a566584b44a2c1a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42849538
+  },
+  {
+    "hash": "11f0ccf8052065e37f92d8ba43e9624fcd3b9814",
+    "subject": "fix(test): share fail fast tracker between threads (#20515)",
+    "authoredDate": "2023-09-15T15:46:48.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/11f0ccf8052065e37f92d8ba43e9624fcd3b9814/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42668395
+  },
+  {
+    "hash": "d226970c0ed1e5a9691b7f22a91792b3e6955d9c",
+    "subject": "chore(ext/http): fix a rejection test (#20514)",
+    "authoredDate": "2023-09-15T14:53:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d226970c0ed1e5a9691b7f22a91792b3e6955d9c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42670326
+  },
+  {
+    "hash": "71af3c375c229e3311e4c82350025d1955cfa123",
+    "subject": "fix(ext/http): ensure aborted bodies throw (#20503)",
+    "authoredDate": "2023-09-15T14:08:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/71af3c375c229e3311e4c82350025d1955cfa123/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42668476
+  },
+  {
+    "hash": "06ece5645c07471a740af8ee622da970845daae7",
+    "subject": "fix: init v8 platform once on main thread (#20495)",
+    "authoredDate": "2023-09-14T22:17:01.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/06ece5645c07471a740af8ee622da970845daae7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42672685
+  },
+  {
+    "hash": "5e7435fb8010a6d90f1b88d68ee8c431abf846e1",
+    "subject": "refactor: rewrite more ops to op2 macro (#20478)",
+    "authoredDate": "2023-09-14T21:05:18.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5e7435fb8010a6d90f1b88d68ee8c431abf846e1/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42668351
+  },
+  {
+    "hash": "dc505e905ec256f034a963f12752dcc4187cb7b9",
+    "subject": "chore(cli): update chrono to remove broken time dep (#20508)",
+    "authoredDate": "2023-09-14T19:17:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/dc505e905ec256f034a963f12752dcc4187cb7b9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42575623
+  },
+  {
+    "hash": "5ba89666afbe30dcd5ed64a87e69e7dcf97573e8",
+    "subject": "chore: update deno_core + cargo update (#20507)",
+    "authoredDate": "2023-09-14T19:00:25.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5ba89666afbe30dcd5ed64a87e69e7dcf97573e8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42586131
+  },
+  {
+    "hash": "6dc8682b9acabea56fd69a25c28b6a8f95c2ce26",
+    "subject": "feat: explicit resource management in TypeScript (#20506)",
+    "authoredDate": "2023-09-14T18:08:59.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6dc8682b9acabea56fd69a25c28b6a8f95c2ce26/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42580327
+  },
+  {
+    "hash": "e66d3c2c2e287879a757e12943a6d240981cb9e8",
+    "subject": "refactor: remove `DENO_UNSTABLE_NPM_SYNC_DOWNLOAD` and custom sync fu…",
+    "authoredDate": "2023-09-14T17:51:28.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/e66d3c2c2e287879a757e12943a6d240981cb9e8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42568024
+  },
+  {
+    "hash": "54890ee98b9068af41214b86fb693135f0998a0a",
+    "subject": "chore(tests): ability to pattern match unordered lines (#20488)",
+    "authoredDate": "2023-09-14T16:21:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/54890ee98b9068af41214b86fb693135f0998a0a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42575015
+  },
+  {
+    "hash": "851f795001a9164572d02606587ddc5193bdfd2d",
+    "subject": "fix: output traces for op sanitizer in more cases (#20494)",
+    "authoredDate": "2023-09-14T14:38:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/851f795001a9164572d02606587ddc5193bdfd2d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42575223
+  },
+  {
+    "hash": "bbb348aa33b56e15f376e8e7ee7b71bd5badd936",
+    "subject": "refactor: rewrite ext/node to op2 (#20489)",
+    "authoredDate": "2023-09-14T06:29:44.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/bbb348aa33b56e15f376e8e7ee7b71bd5badd936/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42575622
+  },
+  {
+    "hash": "2046aeed70efac1e17f1df8873da25e00bb4e2b2",
+    "subject": "feat(ext/web): Add name to Deno.customInspect of File objects (#20415)",
+    "authoredDate": "2023-09-14T05:06:58.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2046aeed70efac1e17f1df8873da25e00bb4e2b2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42492434
+  },
+  {
+    "hash": "e60cbfadc0c75d48ff004fa8f47d4b5d022cb98c",
+    "subject": "refactor: use TaskQueue from deno_unsync (#20485)",
+    "authoredDate": "2023-09-14T03:36:24.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/e60cbfadc0c75d48ff004fa8f47d4b5d022cb98c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42494411
+  },
+  {
+    "hash": "a4b7d563c48d6f386d3383ce35a1319a6834eaf0",
+    "subject": "chore(test_util): ensure that extra expectations are an error even wi…",
+    "authoredDate": "2023-09-13T22:09:43.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a4b7d563c48d6f386d3383ce35a1319a6834eaf0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42499510
+  },
+  {
+    "hash": "81d50e1b6685a12a4f43693e695073a97f79264b",
+    "subject": "chore: bump deno_core and cargo update (#20480)",
+    "authoredDate": "2023-09-13T22:01:31.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/81d50e1b6685a12a4f43693e695073a97f79264b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42499513
+  },
+  {
+    "hash": "12a75e3b4328dd36a63799262b2e252f9fb9d58e",
+    "subject": "refactor: move `deno_core::TaskQueue` to `cli::util::sync` (#20481)",
+    "authoredDate": "2023-09-13T21:53:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/12a75e3b4328dd36a63799262b2e252f9fb9d58e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42330555
+  },
+  {
+    "hash": "022664aab4ff5e1a9ec6257781f464f56da7a357",
+    "subject": "feat(lsp): WorkspaceSettings::disablePaths (#20475)",
+    "authoredDate": "2023-09-13T16:30:27.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/022664aab4ff5e1a9ec6257781f464f56da7a357/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42328529
+  },
+  {
+    "hash": "109a42ab0728d4e3e2429fd090eb2f432a6fc9f5",
+    "subject": "refactor: rewrite ext/crypto to op2 (#20477)",
+    "authoredDate": "2023-09-13T15:54:19.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/109a42ab0728d4e3e2429fd090eb2f432a6fc9f5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42327303
+  },
+  {
+    "hash": "8f0270c0cf7ed28943686325b8d329bcd2f497b2",
+    "subject": "fix(devcontainer): Add build deps and update extension in devcontaine…",
+    "authoredDate": "2023-09-12T15:33:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8f0270c0cf7ed28943686325b8d329bcd2f497b2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42273124
+  },
+  {
+    "hash": "08d2a32060a66e47dcccd99428d2ad13d7af29a9",
+    "subject": "refactor: rewrite ext/net/ ops to op2 (#20471)",
+    "authoredDate": "2023-09-12T13:39:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/08d2a32060a66e47dcccd99428d2ad13d7af29a9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42270604
+  },
+  {
+    "hash": "bdf1850679ef7d94fbc603f1170af2e232671249",
+    "subject": "fix(lsp): match enable_paths by whole path components (#20470)",
+    "authoredDate": "2023-09-12T13:36:50.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/bdf1850679ef7d94fbc603f1170af2e232671249/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42177080
+  },
+  {
+    "hash": "0b78a61f084bc60648589c79f202cc63c792066e",
+    "subject": "refactor: rewrite cli/ ops to op2 (#20462)",
+    "authoredDate": "2023-09-12T11:14:45.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0b78a61f084bc60648589c79f202cc63c792066e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42176986
+  },
+  {
+    "hash": "4a8b873111dbedde34b9bca702fb0b593fbf09a8",
+    "subject": "fix(init): skip existing files instead of erroring (#20434)",
+    "authoredDate": "2023-09-12T10:55:26.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/4a8b873111dbedde34b9bca702fb0b593fbf09a8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42168239
+  },
+  {
+    "hash": "f32acb945e4f96b540c61705eb0d786fc4389d60",
+    "subject": "refactor: rewrite ext/io, ext/webstorage ops to op2 (#20461)",
+    "authoredDate": "2023-09-12T10:42:05.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f32acb945e4f96b540c61705eb0d786fc4389d60/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42169739
+  },
+  {
+    "hash": "82c28640658df400e5bed2e208912247b1e83d0f",
+    "subject": "refactor: strongly typed TSC ops (#20466)",
+    "authoredDate": "2023-09-12T00:55:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/82c28640658df400e5bed2e208912247b1e83d0f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42164855
+  },
+  {
+    "hash": "950e0e9cd65bd634d59fe60d5a0cb8651958c7fb",
+    "subject": "fix(ext/http): create a graceful shutdown API (#20387)",
+    "authoredDate": "2023-09-12T00:06:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/950e0e9cd65bd634d59fe60d5a0cb8651958c7fb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42160803
+  },
+  {
+    "hash": "bfd230fd78ef7867eec75e6b21715f51e72e7a23",
+    "subject": "chore: update inner #\\![allow] to #[allow] (#20463)",
+    "authoredDate": "2023-09-11T23:12:33.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/bfd230fd78ef7867eec75e6b21715f51e72e7a23/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42136936
+  },
+  {
+    "hash": "bdeb4bddbf5cabd04abe906388f5ebfe64a84c53",
+    "subject": "refactor: rewrite runtime/ ops to op2 (#20459)",
+    "authoredDate": "2023-09-11T22:10:43.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/bdeb4bddbf5cabd04abe906388f5ebfe64a84c53/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42138722
+  },
+  {
+    "hash": "aaff69db3fd8cf70d1c031720e84874cb4a4d02c",
+    "subject": "perf(node/net): optimize socket reads for 'npm:ws' package (#20449)",
+    "authoredDate": "2023-09-11T18:38:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/aaff69db3fd8cf70d1c031720e84874cb4a4d02c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42109954
+  },
+  {
+    "hash": "9d1385896f3c170cf4e0cb744cc2e88e12af50ab",
+    "subject": "fix: exclude internal JS files from coverage (#20448)",
+    "authoredDate": "2023-09-11T13:53:42.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9d1385896f3c170cf4e0cb744cc2e88e12af50ab/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42113067
+  },
+  {
+    "hash": "4460336fdae3a6c0c8ebe8e6b8842604743cf985",
+    "subject": "fix(lsp): always enable semantic tokens responses (#20440)",
+    "authoredDate": "2023-09-10T19:09:45.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/4460336fdae3a6c0c8ebe8e6b8842604743cf985/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42111804
+  },
+  {
+    "hash": "0b3968c468a4fb3ce97fdf74cb619e7c0922d372",
+    "subject": "chore: speed up test name escapeing (#20439)",
+    "authoredDate": "2023-09-10T12:07:00.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0b3968c468a4fb3ce97fdf74cb619e7c0922d372/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42109688
+  },
+  {
+    "hash": "c228adc27d5b605286d3a9ca924e657308aebb74",
+    "subject": "feat: TypeScript 5.2 (#20425)",
+    "authoredDate": "2023-09-09T19:03:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c228adc27d5b605286d3a9ca924e657308aebb74/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42112071
+  },
+  {
+    "hash": "f75a17521df053218c0c2b5fb93c5354f9c8f274",
+    "subject": "fix(lsp): respect configured exclusions for testing APIs (#20427)",
+    "authoredDate": "2023-09-09T18:37:01.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f75a17521df053218c0c2b5fb93c5354f9c8f274/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42060024
+  },
+  {
+    "hash": "947865c05478fce0675fce93fd2811f93b703287",
+    "subject": "feat(cli): allow --log-level=trace for additional deep debugging (#20…",
+    "authoredDate": "2023-09-09T18:03:19.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/947865c05478fce0675fce93fd2811f93b703287/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42064986
+  },
+  {
+    "hash": "29ff0bfa9f4c369b30ec8ad1a81dc567eb9dc569",
+    "subject": "Reland \"refactor(lsp): clean up \"enablePaths\" handling (#20388)\" (#20…",
+    "authoredDate": "2023-09-09T14:04:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/29ff0bfa9f4c369b30ec8ad1a81dc567eb9dc569/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42065527
+  },
+  {
+    "hash": "c521c5fe771a92a73b2e48c846e1346fb7ca2b20",
+    "subject": "feat: lockfile v3 (#20424)",
+    "authoredDate": "2023-09-08T18:34:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c521c5fe771a92a73b2e48c846e1346fb7ca2b20/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42068542
+  },
+  {
+    "hash": "9cac5601b8f37ba4713631a13cf1ed65c82012c9",
+    "subject": "fix(compile): support providing flags as args (#20422)",
+    "authoredDate": "2023-09-08T17:14:59.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9cac5601b8f37ba4713631a13cf1ed65c82012c9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42056757
+  },
+  {
+    "hash": "1b7d5937d94da0e05ac9108c3e1544d6791b2fc9",
+    "subject": "fix(fmt/markdown): improve ignore comment handling (#20421)",
+    "authoredDate": "2023-09-08T16:38:42.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1b7d5937d94da0e05ac9108c3e1544d6791b2fc9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42054411
+  },
+  {
+    "hash": "f3d25af61cf8b36d858080585dda4a2a8de0eaad",
+    "subject": "Revert \"refactor(lsp): clean up \"enablePaths\" handling (#20388)\" (#20…",
+    "authoredDate": "2023-09-08T15:48:26.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f3d25af61cf8b36d858080585dda4a2a8de0eaad/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42057477
+  },
+  {
+    "hash": "375d8a5bd50cdead2e7ede4a4a2db69b6da92876",
+    "subject": "fix(ext/kv): same `expireIn` should generate same `expireAt` (#20396)",
+    "authoredDate": "2023-09-08T15:20:28.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/375d8a5bd50cdead2e7ede4a4a2db69b6da92876/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42056441
+  },
+  {
+    "hash": "17276a1df9fb4926f813d2b8a5ac2a2a8bf289eb",
+    "subject": "fix: empty include in config file excludes all (#20404)",
+    "authoredDate": "2023-09-08T14:04:45.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/17276a1df9fb4926f813d2b8a5ac2a2a8bf289eb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42055579
+  },
+  {
+    "hash": "14522fc62886b95431f62d5bd21d70cfaac780ee",
+    "subject": "chore(lsp): remove TestingSettings::enable (#20407)",
+    "authoredDate": "2023-09-08T11:47:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/14522fc62886b95431f62d5bd21d70cfaac780ee/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42054126
+  },
+  {
+    "hash": "a9cc4631ca4b5e2bb64943435d0d8242292b168d",
+    "subject": "fix(ext/node/ops/zlib/brotli): Allow decompressing more than 4096 byt…",
+    "authoredDate": "2023-09-08T03:41:33.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a9cc4631ca4b5e2bb64943435d0d8242292b168d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42054296
+  },
+  {
+    "hash": "4a11603c76b13ecf92ce3141ec317a42ae9f8d1d",
+    "subject": "refactor(lsp): clean up \"enablePaths\" handling (#20388)",
+    "authoredDate": "2023-09-07T23:50:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/4a11603c76b13ecf92ce3141ec317a42ae9f8d1d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42043259
+  },
+  {
+    "hash": "9d6584c16f8c759f321ab82a3b9d03d0e2e1d363",
+    "subject": "perf(ext/node): Optimise Buffer string operations (#20158)",
+    "authoredDate": "2023-09-07T20:41:16.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9d6584c16f8c759f321ab82a3b9d03d0e2e1d363/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42048298
+  },
+  {
+    "hash": "29784df24eefcbe3ce015c8621c20b0bdbc54090",
+    "subject": "chore(ext/fs): port some ops to op2 (#20402)",
+    "authoredDate": "2023-09-07T19:19:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/29784df24eefcbe3ce015c8621c20b0bdbc54090/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42043222
+  },
+  {
+    "hash": "8eda8c0dbd05afa7313216a1c91d64a41442c9e9",
+    "subject": "chore: make downloadPrebuilt a little more reliable (#20401)",
+    "authoredDate": "2023-09-07T17:13:11.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8eda8c0dbd05afa7313216a1c91d64a41442c9e9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41906435
+  },
+  {
+    "hash": "9226207c017666ef10712fa3fda35f773025ae03",
+    "subject": "chore(ext/node): port some ops to op2 (#20400)",
+    "authoredDate": "2023-09-07T16:56:02.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9226207c017666ef10712fa3fda35f773025ae03/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41905025
+  },
+  {
+    "hash": "3fc19dab47492e06043fc7add28e64693a4eb775",
+    "subject": "feat: support import attributes (#20342)",
+    "authoredDate": "2023-09-07T13:09:16.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/3fc19dab47492e06043fc7add28e64693a4eb775/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41890047
+  },
+  {
+    "hash": "01a761f1d4f7ff4943fbf80464a276b434d8a8f7",
+    "subject": "chore(ext/kv): limit total key size in an atomic op to 80 KiB (#20395)",
+    "authoredDate": "2023-09-07T07:07:04.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/01a761f1d4f7ff4943fbf80464a276b434d8a8f7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41807443
+  },
+  {
+    "hash": "2cbd1b40cb4392b6a4f6b2e7315e610f488d66b7",
+    "subject": "fix(test): apply filter before checking for \"only\" (#20389)",
+    "authoredDate": "2023-09-06T16:07:37.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2cbd1b40cb4392b6a4f6b2e7315e610f488d66b7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41810057
+  },
+  {
+    "hash": "e0a269c23af2bccfa71d7a22506a348574be138a",
+    "subject": "fix: don't show filtered test suites as running (#20385)",
+    "authoredDate": "2023-09-06T12:54:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/e0a269c23af2bccfa71d7a22506a348574be138a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41807601
+  },
+  {
+    "hash": "147c845c95bfd55548d5b5b56d70f0a616410e0d",
+    "subject": "feat(test): Add Deno.test.ignore and Deno.test.only (#20365)",
+    "authoredDate": "2023-09-06T12:17:33.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/147c845c95bfd55548d5b5b56d70f0a616410e0d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41807943
+  },
+  {
+    "hash": "9befa566ec3ef4594fd7ffb2cbdf5b34d9705e16",
+    "subject": "fix(ext/node): implement AES GCM cipher (#20368)",
+    "authoredDate": "2023-09-06T05:31:50.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9befa566ec3ef4594fd7ffb2cbdf5b34d9705e16/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41801406
+  },
+  {
+    "hash": "a0af53fea134f712408fa2d2d20078dd8ca7d0e6",
+    "subject": "chore: pin third_party (#20386)",
+    "authoredDate": "2023-09-06T04:07:55.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a0af53fea134f712408fa2d2d20078dd8ca7d0e6/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41789623
+  },
+  {
+    "hash": "be1fc754a14683bf640b7bf0ecf6e286d02ee118",
+    "subject": "feat(lsp): provide the deno.cache command server-side (#20111)",
+    "authoredDate": "2023-09-05T15:36:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/be1fc754a14683bf640b7bf0ecf6e286d02ee118/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41790173
+  },
+  {
+    "hash": "4a561f12dbae5a49203eb2c08fed71d9d0dfeb99",
+    "subject": "fix(node/child_process): don't crash on undefined/null value of an en…",
+    "authoredDate": "2023-09-05T10:42:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/4a561f12dbae5a49203eb2c08fed71d9d0dfeb99/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41785124
+  },
+  {
+    "hash": "2a1ba2732e5cc04d74837dd9529dbab6e459117c",
+    "subject": "chore: disable 'test-http-content-length.js` test (#20344)",
+    "authoredDate": "2023-09-04T21:23:01.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2a1ba2732e5cc04d74837dd9529dbab6e459117c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41786335
+  },
+  {
+    "hash": "9e243d22f4ea9642e24415e5484f0f067f466ef5",
+    "subject": "Revert \"refactor: rewrite ops that use 'deferred' to use 'op2(async(l…",
+    "authoredDate": "2023-09-04T21:05:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9e243d22f4ea9642e24415e5484f0f067f466ef5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41789368
+  },
+  {
+    "hash": "2cc7c8432fc74b734e9d2b0c34c6a9ab434e5781",
+    "subject": "fix(node): Bump hardcoded version to latest (#20366)",
+    "authoredDate": "2023-09-04T10:33:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2cc7c8432fc74b734e9d2b0c34c6a9ab434e5781/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41787859
+  },
+  {
+    "hash": "1dc5d421149903f4e963e735755026d07022ac33",
+    "subject": "fix(ext/kv): add a warning for listenQueue if used with remote KV (#2…",
+    "authoredDate": "2023-09-04T00:47:52.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1dc5d421149903f4e963e735755026d07022ac33/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41791487
+  },
+  {
+    "hash": "d6c49353c3f545bfd2af8711197d23e41dd5e378",
+    "subject": "chore(release): fix workspace formatter (#20357)",
+    "authoredDate": "2023-09-03T04:39:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/d6c49353c3f545bfd2af8711197d23e41dd5e378/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41795314
+  },
+  {
+    "hash": "12f6ad32c2108efb1492df6192a1f8cdd5eafa76",
+    "subject": "fix(lsp): properly handle disabled configuration requests (#20358)",
+    "authoredDate": "2023-09-02T15:36:04.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/12f6ad32c2108efb1492df6192a1f8cdd5eafa76/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41800176
+  },
+  {
+    "hash": "83426be6eead06c680ae527468aeaf8723543ff2",
+    "subject": "refactor: rewrite ops that use 'deferred' to use 'op2(async(lazy))' (…",
+    "authoredDate": "2023-09-02T06:48:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/83426be6eead06c680ae527468aeaf8723543ff2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41796535
+  },
+  {
+    "hash": "e1fb48524d2730bf7c7dfaf021bf39de2d5903bb",
+    "subject": "Reland \"feat(lsp): enable via config file detection (#20334)\" (#20349)",
+    "authoredDate": "2023-09-01T20:13:13.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/e1fb48524d2730bf7c7dfaf021bf39de2d5903bb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41793520
+  },
+  {
+    "hash": "2b191c6e9d9c875a46d2943955d4e9ca08c6b657",
+    "subject": "chore: forward v1.36.4 to main (#20352)",
+    "authoredDate": "2023-09-01T18:08:58.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2b191c6e9d9c875a46d2943955d4e9ca08c6b657/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41789627
+  },
+  {
+    "hash": "c9223bc6a5a9461e017df75a7fa9cf35430e2521",
+    "subject": "fix(evt/kv): Add serde feature to uuid (#20350)",
+    "authoredDate": "2023-09-01T16:41:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c9223bc6a5a9461e017df75a7fa9cf35430e2521/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41785503
+  },
+  {
+    "hash": "a74554987af17b09aeb2d113fad6998f465132d6",
+    "subject": "Revert \"feat(lsp): enable via config file detection (#20334)\" (#20347)",
+    "authoredDate": "2023-09-01T12:01:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a74554987af17b09aeb2d113fad6998f465132d6/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41782618
+  },
+  {
+    "hash": "3436f65e20bd612fdfb8bdee5c20f52fbd11b21a",
+    "subject": "fix(ext/node): remove unnecessary and incorrect type priority_t (#20276)",
+    "authoredDate": "2023-09-01T09:21:23.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/3436f65e20bd612fdfb8bdee5c20f52fbd11b21a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41786353
+  },
+  {
+    "hash": "cd0fcc2257198e33c319555091b7081dc8387c8d",
+    "subject": "chore: upgrade deno_core to 0.208.0 (#20340)",
+    "authoredDate": "2023-08-31T19:56:25.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/cd0fcc2257198e33c319555091b7081dc8387c8d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41782391
+  },
+  {
+    "hash": "c0dcf6a3571ee04b4826c52d1329804e7c2b02c4",
+    "subject": "feat(lsp): enable via config file detection (#20334)",
+    "authoredDate": "2023-08-31T18:10:09.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c0dcf6a3571ee04b4826c52d1329804e7c2b02c4/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41792687
+  },
+  {
+    "hash": "9d58c896dc11be39727729b74ebe5d5d7bb58767",
+    "subject": "fix(ext/crypto): remove EdDSA alg key checks and export (#20331)",
+    "authoredDate": "2023-08-31T12:56:26.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9d58c896dc11be39727729b74ebe5d5d7bb58767/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41790283
+  },
+  {
+    "hash": "1cb547d885906d557a63b2670c4b1b95a8626826",
+    "subject": "fix(node): propagate create cipher errors (#20280)",
+    "authoredDate": "2023-08-26T05:15:37.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1cb547d885906d557a63b2670c4b1b95a8626826/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41128566
+  },
+  {
+    "hash": "37292e74e1a986946ee73edaf81b05bc47b3a201",
+    "subject": "fix(lsp): implement deno.suggest.completeFunctionCalls (#20214)",
+    "authoredDate": "2023-08-26T00:53:44.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/37292e74e1a986946ee73edaf81b05bc47b3a201/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41129219
+  },
+  {
+    "hash": "6f077ebb07740446dba26ef2b3f9fb35fa0d9d1d",
+    "subject": "feat(lsp): update imports on file rename (#20245)",
+    "authoredDate": "2023-08-26T00:50:47.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6f077ebb07740446dba26ef2b3f9fb35fa0d9d1d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41130214
+  },
+  {
+    "hash": "a526cff0a9888a475d5b542efda443fe720a93d0",
+    "subject": "feat(cli/tools): add TAP test reporter (#14390) (#20073)",
+    "authoredDate": "2023-08-25T23:19:23.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a526cff0a9888a475d5b542efda443fe720a93d0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41129093
+  },
+  {
+    "hash": "8bb4e10881730576bbb82e54ede1ebf5931194c3",
+    "subject": "fix(ext/tls): upgrade webpki version (#20285)",
+    "authoredDate": "2023-08-25T21:40:25.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8bb4e10881730576bbb82e54ede1ebf5931194c3/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 41120400
+  },
+  {
+    "hash": "907d9bb4d720a7b01bffb098c72c789665f2415b",
+    "subject": "fix(lsp): test explorer panic on step result (#20289)",
+    "authoredDate": "2023-08-25T21:32:22.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/907d9bb4d720a7b01bffb098c72c789665f2415b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40994747
+  },
+  {
+    "hash": "fd70b7025b0fab18c670c8e11050bc1110eb73ed",
+    "subject": "chore: fully remove atty dep (#20288)",
+    "authoredDate": "2023-08-25T17:40:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/fd70b7025b0fab18c670c8e11050bc1110eb73ed/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40997324
+  },
+  {
+    "hash": "37de5e8623bc2c96dfd577d2a496eab62358b73f",
+    "subject": "feat(node): use i32 for priority_t on MacOS and {Free,Open}BSD (#20286)",
+    "authoredDate": "2023-08-25T16:46:19.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/37de5e8623bc2c96dfd577d2a496eab62358b73f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40992678
+  },
+  {
+    "hash": "c272d26ae84ddf8ce1aa0456fbecedff102a64b0",
+    "subject": "chore(cli): remove atty crate (#20275)",
+    "authoredDate": "2023-08-25T13:43:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c272d26ae84ddf8ce1aa0456fbecedff102a64b0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40992741
+  },
+  {
+    "hash": "9e31f9452e0b91816b9114f17e7aaa5c226b9337",
+    "subject": "fix(lsp/testing): don't queue modules without tests (#20277)",
+    "authoredDate": "2023-08-25T09:12:11.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9e31f9452e0b91816b9114f17e7aaa5c226b9337/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40995845
+  },
+  {
+    "hash": "3a2d284c96a7fe0a4a0d0430df79b79b8a4a4422",
+    "subject": "chore: forward v1.36.3 release commit to main (#20270)",
+    "authoredDate": "2023-08-24T17:53:01.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/3a2d284c96a7fe0a4a0d0430df79b79b8a4a4422/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40993993
+  },
+  {
+    "hash": "a47c160cbcde22e5c65e9fd5ee1dd7a0cbb78b31",
+    "subject": "build(deps): bump trust-dns-server from 0.22.0 to 0.22.1 (#20114)",
+    "authoredDate": "2023-08-24T15:10:26.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a47c160cbcde22e5c65e9fd5ee1dd7a0cbb78b31/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40994810
+  },
+  {
+    "hash": "1b77a59be58741ec2931c1ad259287da1d26dd52",
+    "subject": "build(deps): bump rustls-webpki from 0.100.1 to 0.100.2 (#20241)",
+    "authoredDate": "2023-08-24T15:09:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1b77a59be58741ec2931c1ad259287da1d26dd52/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40991759
+  },
+  {
+    "hash": "0379e1082ceebf722193ebcca417c68fc61813cb",
+    "subject": "chore: Add a local-build.toml to make downstream packaging from sourc…",
+    "authoredDate": "2023-08-24T14:46:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0379e1082ceebf722193ebcca417c68fc61813cb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40998588
+  },
+  {
+    "hash": "f9beb928186f4edb07e07c96b677f14e75c428bb",
+    "subject": "refactor: use \"deno_config\" crate (#20260)",
+    "authoredDate": "2023-08-24T09:21:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f9beb928186f4edb07e07c96b677f14e75c428bb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40994487
+  },
+  {
+    "hash": "b1ce2e41676ab5bc807a705b072986d9357fece5",
+    "subject": "fix(ext/web): add stream tests to detect v8slice split bug (#20253)",
+    "authoredDate": "2023-08-23T23:03:05.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b1ce2e41676ab5bc807a705b072986d9357fece5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40962564
+  },
+  {
+    "hash": "af1b794e53182dfe19cc675a107138263f08476c",
+    "subject": "fix: add missing `URL.canParse()` types (#20244)",
+    "authoredDate": "2023-08-23T07:31:13.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/af1b794e53182dfe19cc675a107138263f08476c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42662594
+  },
+  {
+    "hash": "9b0130770467ef11f4c0d4acbb42a9f0cf4bfe7f",
+    "subject": "fix(ext/web): better handling of errors in resourceForReadableStream …",
+    "authoredDate": "2023-08-22T22:16:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/9b0130770467ef11f4c0d4acbb42a9f0cf4bfe7f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42661849
+  },
+  {
+    "hash": "c37b9655b6a6ccff1cedc6e43d245fd55415d76f",
+    "subject": "fix(ext/node): simultaneous reads can leak into each other (#20223)",
+    "authoredDate": "2023-08-22T14:45:10.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c37b9655b6a6ccff1cedc6e43d245fd55415d76f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42661251
+  },
+  {
+    "hash": "792dc754712ecf913a76c6bcbf3074ef7fb51cd7",
+    "subject": "fix(cli): add timeout on inspector tests (#20225)",
+    "authoredDate": "2023-08-22T13:25:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/792dc754712ecf913a76c6bcbf3074ef7fb51cd7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42661665
+  },
+  {
+    "hash": "8649648b438d67e4ca3dbedf57367c0ecfc3698e",
+    "subject": "fix(lint): erroneous remove await in async (#20235)",
+    "authoredDate": "2023-08-22T10:16:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8649648b438d67e4ca3dbedf57367c0ecfc3698e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42663108
+  },
+  {
+    "hash": "6d4a005e4108a5dd762b339a02bc4d802755ba0d",
+    "subject": "feat(ext/kv): connect to remote database (#20178)",
+    "authoredDate": "2023-08-22T05:56:00.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6d4a005e4108a5dd762b339a02bc4d802755ba0d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42665227
+  },
+  {
+    "hash": "5834d282d4de5d0b5cacb9bf068f3896bef0a48a",
+    "subject": "refactor: upgrade deno_ast 0.28 and deno_semver 0.4 (#20193)",
+    "authoredDate": "2023-08-21T09:53:52.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5834d282d4de5d0b5cacb9bf068f3896bef0a48a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42578985
+  },
+  {
+    "hash": "af125c8e700eacc7360b3d81ffe4de13e12a612a",
+    "subject": "feat(unstable): Improve FFI types (#20215)",
+    "authoredDate": "2023-08-21T08:06:26.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/af125c8e700eacc7360b3d81ffe4de13e12a612a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42559370
+  },
+  {
+    "hash": "576d0db372c3f4c9b01caecdbe2360a73de6d36d",
+    "subject": "fix(ext/http): ensure request body resource lives as long as response…",
+    "authoredDate": "2023-08-21T01:35:26.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/576d0db372c3f4c9b01caecdbe2360a73de6d36d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42556820
+  },
+  {
+    "hash": "efdf0bbd9b76b8b1b5d0374a63358192534f22ad",
+    "subject": "ci: fix bench step (#20216)",
+    "authoredDate": "2023-08-20T15:43:50.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/efdf0bbd9b76b8b1b5d0374a63358192534f22ad/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42554750
+  },
+  {
+    "hash": "32bbba3db29d503a681ad1617901ce9a0e908e86",
+    "subject": "perf(ext/event): always set timeStamp to 0 (#20191)",
+    "authoredDate": "2023-08-20T10:02:47.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/32bbba3db29d503a681ad1617901ce9a0e908e86/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42558892
+  },
+  {
+    "hash": "7847de0974889ac265f9c1ce246588f6c7ddde22",
+    "subject": "perf(ext/event): optimize addEventListener options converter (#20203)",
+    "authoredDate": "2023-08-20T09:30:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7847de0974889ac265f9c1ce246588f6c7ddde22/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42555595
+  },
+  {
+    "hash": "b9f407aef73dd5773638a4ce1690737209318be8",
+    "subject": "chore: fix bench ci (#20208)",
+    "authoredDate": "2023-08-19T10:52:21.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b9f407aef73dd5773638a4ce1690737209318be8/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42557824
+  },
+  {
+    "hash": "c2259f78eb8180731bb562740695ab6e58c790e7",
+    "subject": "chore: remove third_party submodule (#20201)",
+    "authoredDate": "2023-08-19T04:26:12.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c2259f78eb8180731bb562740695ab6e58c790e7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42559328
+  },
+  {
+    "hash": "0e4469c7a1d9afcffc53d714e6db4491e552d5c9",
+    "subject": "ci: try to fix flaky stdio_streams_are_locked_in_permission_prompt (#…",
+    "authoredDate": "2023-08-18T15:01:41.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0e4469c7a1d9afcffc53d714e6db4491e552d5c9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42556650
+  },
+  {
+    "hash": "e1aa51417967373acaf007e46b852169f468b627",
+    "subject": "perf(ext/event): replace ReflectHas with object lookup (#20190)",
+    "authoredDate": "2023-08-18T12:44:57.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/e1aa51417967373acaf007e46b852169f468b627/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42556047
+  },
+  {
+    "hash": "a48ec1d5637398fd4e023bdbb6cc00399bf47631",
+    "subject": "fix(node/http): emit error when addr in use (#20200)",
+    "authoredDate": "2023-08-18T11:48:18.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a48ec1d5637398fd4e023bdbb6cc00399bf47631/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42557735
+  },
+  {
+    "hash": "c77c836a238ce683b21c12f88cd1101b930ce042",
+    "subject": "feat(ext/kv): key expiration (#20091)",
+    "authoredDate": "2023-08-18T09:34:16.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c77c836a238ce683b21c12f88cd1101b930ce042/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42559525
+  },
+  {
+    "hash": "b5839eefcf02e62e9e77e8095f372ac06a523cba",
+    "subject": "fix(test): JUnit reporter includes file, line and column attributes (…",
+    "authoredDate": "2023-08-17T21:41:29.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b5839eefcf02e62e9e77e8095f372ac06a523cba/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42540967
+  },
+  {
+    "hash": "f343391a9f97d29ad287f247c06aa370eb7cab50",
+    "subject": "fix(unstable): disable importing from the vendor directory (#20067)",
+    "authoredDate": "2023-08-17T16:14:22.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f343391a9f97d29ad287f247c06aa370eb7cab50/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42544402
+  },
+  {
+    "hash": "6082e51094e0b5835d7c83586766cc611da2a382",
+    "subject": "fix(cli): handle missing `now` field in cache (#20192)",
+    "authoredDate": "2023-08-17T15:25:00.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6082e51094e0b5835d7c83586766cc611da2a382/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42540492
+  },
+  {
+    "hash": "6de35e4b2e47117deb87ba95acd271ee851fdbd9",
+    "subject": "fix(lsp): pass fmt options to completion requests (#20184)",
+    "authoredDate": "2023-08-17T14:46:11.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6de35e4b2e47117deb87ba95acd271ee851fdbd9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42535811
+  },
+  {
+    "hash": "4535f79a4afb3bd58e46b9fbbb216cffe9d05129",
+    "subject": "fix(npm): do not panic providing file url to require.resolve paths (#…",
+    "authoredDate": "2023-08-17T14:39:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/4535f79a4afb3bd58e46b9fbbb216cffe9d05129/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42535076
+  },
+  {
+    "hash": "23ff0e722e3c4b0827940853c53c5ee2ede5ec9f",
+    "subject": "feat(ext/web): resourceForReadableStream (#20180)",
+    "authoredDate": "2023-08-17T13:52:37.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/23ff0e722e3c4b0827940853c53c5ee2ede5ec9f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42535648
+  },
+  {
+    "hash": "0960e895da1275792c1f38999f6a185c864edb3f",
+    "subject": "fix(ext/kv): retry transaction on `SQLITE_BUSY` errors (#20189)",
+    "authoredDate": "2023-08-17T10:53:55.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0960e895da1275792c1f38999f6a185c864edb3f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42499248
+  },
+  {
+    "hash": "ec63b36994527d0969d8083a6c4be8cd325c7473",
+    "subject": "perf(ext/event): optimize Event constructor (#20181)",
+    "authoredDate": "2023-08-17T08:35:18.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ec63b36994527d0969d8083a6c4be8cd325c7473/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42480190
+  },
+  {
+    "hash": "1b0e394d48324b5e8416f9a563eb2f35719f0906",
+    "subject": "fix: release ReadeableStream in fetch (#17365)",
+    "authoredDate": "2023-08-16T12:02:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/1b0e394d48324b5e8416f9a563eb2f35719f0906/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42480059
+  },
+  {
+    "hash": "838140fb82e696fb131f5c62c51c7b6dea56f3ad",
+    "subject": "perf(ext/urlpattern): optimize URLPattern.exec (#20170)",
+    "authoredDate": "2023-08-16T10:58:03.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/838140fb82e696fb131f5c62c51c7b6dea56f3ad/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42478131
+  },
+  {
+    "hash": "79d144579606e95774aedf79c2a165602be0205d",
+    "subject": "fix(ext/node): allow for the reassignment of userInfo() on Windows (#…",
+    "authoredDate": "2023-08-16T09:28:49.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/79d144579606e95774aedf79c2a165602be0205d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42480283
+  },
+  {
+    "hash": "71d2f4cb97b6cc85cf58c632ecde05cc262ff44f",
+    "subject": "fix(runtime): use host header for inspector websocket URL (#20171)",
+    "authoredDate": "2023-08-15T22:30:33.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/71d2f4cb97b6cc85cf58c632ecde05cc262ff44f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42481516
+  },
+  {
+    "hash": "4380a09a0598c73aa434e2f0f3a34555e0bd55cb",
+    "subject": "feat(ext/node): eagerly bootstrap node (#20153)",
+    "authoredDate": "2023-08-15T19:36:36.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/4380a09a0598c73aa434e2f0f3a34555e0bd55cb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42476072
+  },
+  {
+    "hash": "41cad2179fb36c2371ab84ce587d3460af64b5fb",
+    "subject": "fix(runtime): navigator.userAgent in web worker (#20129)",
+    "authoredDate": "2023-08-15T15:04:36.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/41cad2179fb36c2371ab84ce587d3460af64b5fb/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42497906
+  },
+  {
+    "hash": "ddbb5fdfb034517f200e298c1a5de8aa03b5e5e5",
+    "subject": "perf(ext/node): optimize http headers (#20163)",
+    "authoredDate": "2023-08-15T14:59:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ddbb5fdfb034517f200e298c1a5de8aa03b5e5e5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42497710
+  },
+  {
+    "hash": "0fc31d9d657b4ccf24099803d5321182f08f710c",
+    "subject": "fix(ext/fetch): clone second branch chunks in Body.clone() (#20057)",
+    "authoredDate": "2023-08-15T07:21:02.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/0fc31d9d657b4ccf24099803d5321182f08f710c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42497611
+  },
+  {
+    "hash": "119526a7a5fef24783e5a7a5f4fb05038b410c88",
+    "subject": "fix(require): use canonicalized path for loading content (#20133)",
+    "authoredDate": "2023-08-15T07:10:54.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/119526a7a5fef24783e5a7a5f4fb05038b410c88/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42494322
+  },
+  {
+    "hash": "ece2a3de5b19588160634452638aa656218853c5",
+    "subject": "fix(ext/net): implement a graceful error on an invalid SSL certificat…",
+    "authoredDate": "2023-08-15T00:11:12.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ece2a3de5b19588160634452638aa656218853c5/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42496401
+  },
+  {
+    "hash": "625bd3905047173390eeaffd0ffcbb0bf340bb52",
+    "subject": "perf(ext/headers): optimize headers iterable (#20155)",
+    "authoredDate": "2023-08-14T19:13:55.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/625bd3905047173390eeaffd0ffcbb0bf340bb52/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42495145
+  },
+  {
+    "hash": "e071382768fa57b5288a6a5ba90e73bf5870b169",
+    "subject": "perf(ext/node): cache `IncomingMessageForServer.headers` (#20147)",
+    "authoredDate": "2023-08-14T13:14:02.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/e071382768fa57b5288a6a5ba90e73bf5870b169/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42492988
+  },
+  {
+    "hash": "ca9ba87d9956e3f940e0116866e19461f008390b",
+    "subject": "fix(cli) error gracefully when script arg is not present and `--v8-fl…",
+    "authoredDate": "2023-08-13T02:04:17.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ca9ba87d9956e3f940e0116866e19461f008390b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42495956
+  },
+  {
+    "hash": "babfba14ef327051a1caf9df6730606330ff1cc0",
+    "subject": "chore: deno_core -> 0.201.0 (#20135)",
+    "authoredDate": "2023-08-12T19:04:45.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/babfba14ef327051a1caf9df6730606330ff1cc0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 42497152
+  },
+  {
+    "hash": "050ca394096d22330bf5519aad2c59f84be7a0c2",
+    "subject": "perf(ext/request): optimize validate and normalize HTTP method (#20143)",
+    "authoredDate": "2023-08-12T18:29:00.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/050ca394096d22330bf5519aad2c59f84be7a0c2/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40809031
+  },
+  {
+    "hash": "b34bd640a686d11f8e8e3c3cee8d87980f7809f9",
+    "subject": "perf(ext/headers): use regex.test instead of .exec (#20125)",
+    "authoredDate": "2023-08-12T16:42:23.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b34bd640a686d11f8e8e3c3cee8d87980f7809f9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40808463
+  },
+  {
+    "hash": "f843a1fdfff8bc335f48b49e5136f39237d7677c",
+    "subject": "perf(ext/headers): cache iterableHeaders for immutable Headers (#20132)",
+    "authoredDate": "2023-08-12T16:42:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f843a1fdfff8bc335f48b49e5136f39237d7677c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40814762
+  },
+  {
+    "hash": "396498bf9ea0a78d898d339d348777f0a0d70855",
+    "subject": "perf(ext/request): optimize Request constructor (#20141)",
+    "authoredDate": "2023-08-12T16:41:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/396498bf9ea0a78d898d339d348777f0a0d70855/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40805879
+  },
+  {
+    "hash": "33dc5d262288f4efae3077978f37f22338568b35",
+    "subject": "fix(node): implement TLSSocket._start (#20120)",
+    "authoredDate": "2023-08-11T11:57:41.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/33dc5d262288f4efae3077978f37f22338568b35/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40809905
+  },
+  {
+    "hash": "2f00b0add476bb151bc3a713da165296906cfc2a",
+    "subject": "fix(ext/node): support dictionary option in zlib init (#20035)",
+    "authoredDate": "2023-08-11T11:42:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2f00b0add476bb151bc3a713da165296906cfc2a/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40808887
+  },
+  {
+    "hash": "65db8814c31464f2bc2a04dd5ffbaa71361c9f80",
+    "subject": "fix(node): object keys in publicEncrypt (#20128)",
+    "authoredDate": "2023-08-11T07:34:23.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/65db8814c31464f2bc2a04dd5ffbaa71361c9f80/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40809176
+  },
+  {
+    "hash": "634f5ccd49d3b998a9b96af2ad8c4d0ed2235700",
+    "subject": "perf(http): use Cow<[u8]> for setting header (#20112)",
+    "authoredDate": "2023-08-10T21:35:01.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/634f5ccd49d3b998a9b96af2ad8c4d0ed2235700/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40804768
+  },
+  {
+    "hash": "69387f0b0c4ac3be4ce88f9139d141cbc7da277b",
+    "subject": "fix(node): don't print warning on process.dlopen.flags (#20124)",
+    "authoredDate": "2023-08-10T18:19:20.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/69387f0b0c4ac3be4ce88f9139d141cbc7da277b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40807004
+  },
+  {
+    "hash": "6b1a9761812c2f373e52684ae4be8fb939e589b7",
+    "subject": "perf(ext/http): use ServeHandlerInfo class instead of object literal …",
+    "authoredDate": "2023-08-10T17:45:55.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6b1a9761812c2f373e52684ae4be8fb939e589b7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40807944
+  },
+  {
+    "hash": "2d3d0a579d8c3c5f038470e2c6610f6d44d29eb0",
+    "subject": "perf(ext/headers): optimize getHeader using for loop (#20115)",
+    "authoredDate": "2023-08-10T17:41:09.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2d3d0a579d8c3c5f038470e2c6610f6d44d29eb0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40806176
+  },
+  {
+    "hash": "94d664535bccdd2a45b393f819cbf601890492cf",
+    "subject": "chore: forward v1.36.1 to main (#20119)",
+    "authoredDate": "2023-08-10T13:44:41.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/94d664535bccdd2a45b393f819cbf601890492cf/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40808039
+  },
+  {
+    "hash": "91dc6fa5f11f5621c21397c783ee899bfd9657ef",
+    "subject": "chore: upgrade fastwebsockets to 0.4.4 (#19089)",
+    "authoredDate": "2023-08-10T04:29:06.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/91dc6fa5f11f5621c21397c783ee899bfd9657ef/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40803190
+  },
+  {
+    "hash": "8f854782b13658f169920a1a7a21b8e6b64a0c00",
+    "subject": "fix(ext/timers): some timers are not resolved (#20055)",
+    "authoredDate": "2023-08-10T04:01:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8f854782b13658f169920a1a7a21b8e6b64a0c00/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40809721
+  },
+  {
+    "hash": "2507d6fa102488ed77b41a5893b311830f6fe9c9",
+    "subject": "fix(node/async_hooks): don't pop async context frame if stack if empt…",
+    "authoredDate": "2023-08-10T03:30:25.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2507d6fa102488ed77b41a5893b311830f6fe9c9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40810240
+  },
+  {
+    "hash": "04a259e2c8b3fdca8371f35e923bc239e8bb9ec0",
+    "subject": "fix(test): handle ASCII escape chars in test name (#20081)",
+    "authoredDate": "2023-08-09T23:40:34.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/04a259e2c8b3fdca8371f35e923bc239e8bb9ec0/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40808603
+  },
+  {
+    "hash": "414274b68a80199c3fb6bfb3890b0afb79f5b7f9",
+    "subject": "perf(ext/headers): use .push loop instead of spread operator (#20108)",
+    "authoredDate": "2023-08-09T23:36:47.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/414274b68a80199c3fb6bfb3890b0afb79f5b7f9/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40807222
+  },
+  {
+    "hash": "08109b1d86dfce0471fa87a685717036274f0877",
+    "subject": "chore(test_util): Increate pty timeout to 15s to avoid flakes (#20109)",
+    "authoredDate": "2023-08-09T18:49:05.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/08109b1d86dfce0471fa87a685717036274f0877/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40808249
+  },
+  {
+    "hash": "2ed85c7dd686dcf27c16bb56c32a2fdf18747a8d",
+    "subject": "refactor(ext/cache): Remove custom shutdown and use fast async ops (#…",
+    "authoredDate": "2023-08-09T17:45:35.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/2ed85c7dd686dcf27c16bb56c32a2fdf18747a8d/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40808492
+  },
+  {
+    "hash": "ddfcf1add462b200e8cf738ffc25d9fa1e98c9dc",
+    "subject": "refactor(ext/fetch): Remove FetchRequestBodyResource from FetchHandle…",
+    "authoredDate": "2023-08-09T16:47:47.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/ddfcf1add462b200e8cf738ffc25d9fa1e98c9dc/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40804167
+  },
+  {
+    "hash": "03e963f57831367a39996c7d88bc9875e97d52d7",
+    "subject": "chore: rename some helpers on the Fs trait (#20097)",
+    "authoredDate": "2023-08-08T20:28:18.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/03e963f57831367a39996c7d88bc9875e97d52d7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40805303
+  },
+  {
+    "hash": "f2e30a6f7999fa6ce4ab789266927e3abbb48e3f",
+    "subject": "refactor(cli): move `snapshot_from_lockfile` function to `deno_npm` (…",
+    "authoredDate": "2023-08-08T17:07:29.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/f2e30a6f7999fa6ce4ab789266927e3abbb48e3f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40806716
+  },
+  {
+    "hash": "05f838a57cc5b5e7b262e1640baa4d93dfb0df28",
+    "subject": "refactor: use deno_cache_dir crate (#20092)",
+    "authoredDate": "2023-08-08T14:23:02.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/05f838a57cc5b5e7b262e1640baa4d93dfb0df28/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40792689
+  },
+  {
+    "hash": "a037ed77a2b2dbef1d2c4175c0401738a13f13bd",
+    "subject": "fix(fmt): do not insert expr stmt leading semi-colon in do while stmt…",
+    "authoredDate": "2023-08-08T13:15:19.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a037ed77a2b2dbef1d2c4175c0401738a13f13bd/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40746927
+  },
+  {
+    "hash": "557b11b7657e1628082c271a9cece550b3c496fc",
+    "subject": "fix(ext/abort): trigger AbortSignal events in correct order (#20095)",
+    "authoredDate": "2023-08-08T10:05:42.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/557b11b7657e1628082c271a9cece550b3c496fc/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40747439
+  },
+  {
+    "hash": "7ce8c2a1f1236ed747d989c0ccfd9ea756ef8f2c",
+    "subject": "build: remove redundant rerun-if-changed for compiler snapshot (#20094)",
+    "authoredDate": "2023-08-08T07:21:54.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7ce8c2a1f1236ed747d989c0ccfd9ea756ef8f2c/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40748036
+  },
+  {
+    "hash": "b9b03869489213fa9b24d7416afe9e3e27c81ce7",
+    "subject": "feat(unstable): rename `deno_modules` to `vendor` (#20065)",
+    "authoredDate": "2023-08-07T01:56:56.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b9b03869489213fa9b24d7416afe9e3e27c81ce7/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40739909
+  },
+  {
+    "hash": "7b5bc87f296d39e531051e1c0bb6cafa3808ab92",
+    "subject": "fix(unstable): vendor cache should support adding files to hashed dir…",
+    "authoredDate": "2023-08-06T16:25:48.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/7b5bc87f296d39e531051e1c0bb6cafa3808ab92/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40743380
+  },
+  {
+    "hash": "c1c8eb3d558bedf6588179ae93737bd6afe5a368",
+    "subject": "build: allow disabling snapshots for dev (#20048)",
+    "authoredDate": "2023-08-05T23:47:15.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/c1c8eb3d558bedf6588179ae93737bd6afe5a368/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40737226
+  },
+  {
+    "hash": "b96f28306490a56aac91b8ef06b35ebdc7f41b63",
+    "subject": "refactor: remove snapshot_module_load_cb (#20043)",
+    "authoredDate": "2023-08-05T23:00:38.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/b96f28306490a56aac91b8ef06b35ebdc7f41b63/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40737618
+  },
+  {
+    "hash": "85a2b281f566d3404d23852ae29d4a75d020dd5e",
+    "subject": "chore: use zlib-ng for flate2 (#20059)",
+    "authoredDate": "2023-08-05T21:43:16.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/85a2b281f566d3404d23852ae29d4a75d020dd5e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40718827
+  },
+  {
+    "hash": "a1280c36c245daf1552651559d3c3c6c6e8ed71b",
+    "subject": "chore(wpt): expose gc (#20060)",
+    "authoredDate": "2023-08-05T21:34:14.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/a1280c36c245daf1552651559d3c3c6c6e8ed71b/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40691426
+  },
+  {
+    "hash": "6b0f75d1f50bf7afa47ba6ae369bca967754cf21",
+    "subject": "fix(unstable): vendor cache override should handle forbidden windows …",
+    "authoredDate": "2023-08-05T21:34:07.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6b0f75d1f50bf7afa47ba6ae369bca967754cf21/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40692162
+  },
+  {
+    "hash": "8ae706293149fb6e3d40af3ac80a8661fa379111",
+    "subject": "fix(ext/http): serveHttp brotli compression level should be fastest (…",
+    "authoredDate": "2023-08-04T18:39:39.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8ae706293149fb6e3d40af3ac80a8661fa379111/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40691058
+  },
+  {
+    "hash": "72d9f0609094adee954b271db12ca4c834f6b860",
+    "subject": "chore(cargo): update async-compression/flate2/miniz to latest (#20049)",
+    "authoredDate": "2023-08-04T16:30:14.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/72d9f0609094adee954b271db12ca4c834f6b860/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40692159
+  },
+  {
+    "hash": "5abf4cd951792a8d5da8ecc70b219a66f70dbe3e",
+    "subject": "fix(ext/http): unify default gzip compression level (#20050)",
+    "authoredDate": "2023-08-04T15:28:32.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/5abf4cd951792a8d5da8ecc70b219a66f70dbe3e/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40700106
+  },
+  {
+    "hash": "8a175a780a43b4cec7adfff5adbc65d8784aa4ed",
+    "subject": "fix(test): make test runner work when global setTimeout is replaced (…",
+    "authoredDate": "2023-08-04T13:29:04.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/8a175a780a43b4cec7adfff5adbc65d8784aa4ed/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40696543
+  },
+  {
+    "hash": "6405b5f454e140b0d79b603b0627debd246c7b9f",
+    "subject": "fix(node): polyfill process.title (#20044)",
+    "authoredDate": "2023-08-04T12:31:13.000Z",
+    "linux_download_url": "https://dl.deno.land/canary/6405b5f454e140b0d79b603b0627debd246c7b9f/deno-x86_64-unknown-linux-gnu.zip",
+    "size": 40700418
+  }
+]
