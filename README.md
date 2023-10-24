@@ -4,6 +4,12 @@ Prompted by a question on the Deno Discord, I created this repo to measure the s
 
 <img width="841" alt="image" src="https://github.com/rgbkrk/deno-canary-sizes/assets/836375/56f6e303-9a1a-41be-ae4b-3121d1ecb6ca">
 
+* `main.ts`: service deployed to deno
+
+* `mod.ts`: pulls canary build info from GitHub
+
+Read more in ![Canary Sizes Notebook](./canary-sizes.ipynb)
+
 ## How are code changes affecting the size of the Deno binary?
 
 `scarf` on the Deno Discord had this question:
@@ -14,7 +20,7 @@ I figured the addition of Jupyter code was pretty small (main new requirement is
 
 ## Canary Locations
 
-You can dowload the canary for any commit (if built successfully) with a URL like below:
+You can download the canary for any commit (if built successfully) with a URL like below:
 
 `https://dl.deno.land/canary/[COMMIT_HASH]/deno-[TARGET_TUPLE].zip`
 
