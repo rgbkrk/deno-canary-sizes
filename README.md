@@ -8,7 +8,7 @@ Prompted by a question on the Deno Discord, I created this repo to measure the s
 
 * `mod.ts`: pulls canary build info from GitHub
 
-Read more in ![Canary Sizes Notebook](./canary-sizes.ipynb)
+Read more in [Canary Sizes Notebook](./canary-sizes.ipynb)
 
 ## How are code changes affecting the size of the Deno binary?
 
